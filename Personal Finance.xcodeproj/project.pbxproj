@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
+		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
+		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
 		38E0DA1021F5121D00651235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA0F21F5121D00651235 /* Assets.xcassets */; };
 		38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
@@ -20,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
+		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0DA0821F5121C00651235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E0DA0F21F5121D00651235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 				38891F7E21F52764003E04C0 /* Resources */,
 				38891F7D21F52742003E04C0 /* Application */,
 				38891F7C21F5271A003E04C0 /* Base */,
+				38891F8121F528F7003E04C0 /* .gitignore */,
 			);
 			path = "Personal Finance";
 			sourceTree = "<group>";
@@ -195,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
 				38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */,
 				38E0DA1021F5121D00651235 /* Assets.xcassets in Resources */,
@@ -205,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38891F8321F528F7003E04C0 /* .gitignore in Resources */,
 				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
 				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
 				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
