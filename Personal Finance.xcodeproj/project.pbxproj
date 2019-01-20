@@ -98,6 +98,7 @@
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
+				38891F8121F528F7003E04C0 /* .gitignore */,
 				38E0DA0721F5121C00651235 /* Personal Finance */,
 				38E0DA0621F5121C00651235 /* Products */,
 			);
@@ -118,7 +119,6 @@
 				38891F7E21F52764003E04C0 /* Resources */,
 				38891F7D21F52742003E04C0 /* Application */,
 				38891F7C21F5271A003E04C0 /* Base */,
-				38891F8121F528F7003E04C0 /* .gitignore */,
 			);
 			path = "Personal Finance";
 			sourceTree = "<group>";
