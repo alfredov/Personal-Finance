@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
 		38E0DA0B21F5121C00651235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0A21F5121C00651235 /* ViewController.swift */; };
 		38E0DA0E21F5121C00651235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA0C21F5121C00651235 /* Main.storyboard */; };
 		38E0DA1021F5121D00651235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA0F21F5121D00651235 /* Assets.xcassets */; };
 		38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
+		38E0DA1C21F51C2000651235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0A21F5121C00651235 /* ViewController.swift */; };
+		38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
+		38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
+		38E0DA2121F51C2000651235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA0F21F5121D00651235 /* Assets.xcassets */; };
+		38E0DA2221F51C2000651235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA0C21F5121C00651235 /* Main.storyboard */; };
+		38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2821F51D9F00651235 /* MainProd.storyboard */; };
+		38E0DA2A21F51E7500651235 /* production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2721F51C2000651235 /* production.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0DA0821F5121C00651235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E0DA0A21F5121C00651235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +31,20 @@
 		38E0DA0F21F5121D00651235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38E0DA1221F5121D00651235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E0DA1421F5121D00651235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E0DA2621F51C2000651235 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E0DA2721F51C2000651235 /* production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = production.plist; path = "/Users/alfredo/Developer/IOS/Personal Finance/production.plist"; sourceTree = "<absolute>"; };
+		38E0DA2821F51D9F00651235 /* MainProd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProd.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		38E0DA0221F5121C00651235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0DA1E21F51C2000651235 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				38E0DA0521F5121C00651235 /* Personal Finance.app */,
+				38E0DA2621F51C2000651235 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +79,10 @@
 				38E0DA0C21F5121C00651235 /* Main.storyboard */,
 				38E0DA0F21F5121D00651235 /* Assets.xcassets */,
 				38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */,
+				38E0DA2721F51C2000651235 /* production.plist */,
 				38E0DA1421F5121D00651235 /* Info.plist */,
+				38E0DA2821F51D9F00651235 /* MainProd.storyboard */,
+				38891F7A21F522E1003E04C0 /* MainDev.storyboard */,
 			);
 			path = "Personal Finance";
 			sourceTree = "<group>";
@@ -82,6 +105,23 @@
 			name = "Personal Finance";
 			productName = "Personal Finance";
 			productReference = 38E0DA0521F5121C00651235 /* Personal Finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E0DA1A21F51C2000651235 /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E0DA2321F51C2000651235 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				38E0DA1B21F51C2000651235 /* Sources */,
+				38E0DA1E21F51C2000651235 /* Frameworks */,
+				38E0DA1F21F51C2000651235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = "Personal Finance";
+			productReference = 38E0DA2621F51C2000651235 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,6 +153,7 @@
 			projectRoot = "";
 			targets = (
 				38E0DA0421F5121C00651235 /* Personal Finance */,
+				38E0DA1A21F51C2000651235 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +164,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
+				38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */,
 				38E0DA1021F5121D00651235 /* Assets.xcassets in Resources */,
 				38E0DA0E21F5121C00651235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0DA1F21F51C2000651235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
+				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
+				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
+				38E0DA2121F51C2000651235 /* Assets.xcassets in Resources */,
+				38E0DA2221F51C2000651235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +191,15 @@
 			files = (
 				38E0DA0B21F5121C00651235 /* ViewController.swift in Sources */,
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0DA1B21F51C2000651235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0DA1C21F51C2000651235 /* ViewController.swift in Sources */,
+				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +377,42 @@
 			};
 			name = Release;
 		};
+		38E0DA2421F51C2000651235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				INFOPLIST_FILE = "$(SRCROOT)/production.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "website.alfredo.Personal-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E0DA2521F51C2000651235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				INFOPLIST_FILE = "$(SRCROOT)/production.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "website.alfredo.Personal-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +430,15 @@
 			buildConfigurations = (
 				38E0DA1821F5121D00651235 /* Debug */,
 				38E0DA1921F5121D00651235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E0DA2321F51C2000651235 /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E0DA2421F51C2000651235 /* Debug */,
+				38E0DA2521F51C2000651235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
