@@ -14,6 +14,8 @@
 		3850568921F6150400E1452B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850568821F6150400E1452B /* Assets.xcassets */; };
 		3850568A21F6150400E1452B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850568821F6150400E1452B /* Assets.xcassets */; };
 		3850568B21F6170100E1452B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
+		3850568D21F61AA700E1452B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850568C21F61AA700E1452B /* Media.xcassets */; };
+		3850568E21F61AA700E1452B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850568C21F61AA700E1452B /* Media.xcassets */; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
@@ -44,6 +46,7 @@
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		3850568221F611AE00E1452B /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		3850568821F6150400E1452B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Finanza/Finanza/Resources/Images/Assets.xcassets; sourceTree = "<group>"; };
+		3850568C21F61AA700E1452B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				3850568821F6150400E1452B /* Assets.xcassets */,
+				3850568C21F61AA700E1452B /* Media.xcassets */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -246,6 +250,7 @@
 			files = (
 				3850567F21F610D600E1452B /* Cartfile in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
+				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
 				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
 				3850568921F6150400E1452B /* Assets.xcassets in Resources */,
@@ -259,6 +264,7 @@
 			files = (
 				3850568021F610D600E1452B /* Cartfile in Resources */,
 				38891F8321F528F7003E04C0 /* .gitignore in Resources */,
+				3850568E21F61AA700E1452B /* Media.xcassets in Resources */,
 				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
 				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
 				3850568A21F6150400E1452B /* Assets.xcassets in Resources */,
