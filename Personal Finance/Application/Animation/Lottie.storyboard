@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tpo-XL-dmR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lottie View Controller-->
+        <scene sceneID="LJQ-wf-tid">
+            <objects>
+                <viewController id="tpo-XL-dmR" customClass="LottieViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z6a-1y-kjo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n6d-Ea-gEJ" customClass="LOTAnimationView">
+                                <rect key="frame" x="62.5" y="208.5" width="250" height="250"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="gu1-zg-Pro"/>
+                                    <constraint firstAttribute="height" constant="250" id="oNX-MM-Xc3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n6d-Ea-gEJ" firstAttribute="centerX" secondItem="Z6a-1y-kjo" secondAttribute="centerX" id="RLa-ue-6TL"/>
+                            <constraint firstItem="n6d-Ea-gEJ" firstAttribute="centerY" secondItem="Z6a-1y-kjo" secondAttribute="centerY" id="epL-cW-qft"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WVp-fl-5Sj"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="n6d-Ea-gEJ" id="RTR-zg-kV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lko-Aw-Erj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="159"/>
+        </scene>
+    </scenes>
+</document>
