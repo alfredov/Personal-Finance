@@ -13,14 +13,31 @@
         <!--Transactions-->
         <scene sceneID="HMG-Rv-U1h">
             <objects>
-                <viewController id="GXD-EI-6iz" sceneMemberID="viewController">
+                <viewController id="GXD-EI-6iz" customClass="TransactionsViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VbP-JA-Hwq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Llp-ZR-ixe">
+                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Llp-ZR-ixe" firstAttribute="top" secondItem="9rL-AS-OqN" secondAttribute="top" id="Fu8-Z3-YqI"/>
+                            <constraint firstItem="9rL-AS-OqN" firstAttribute="bottom" secondItem="Llp-ZR-ixe" secondAttribute="bottom" id="HNi-Xb-rJp"/>
+                            <constraint firstItem="Llp-ZR-ixe" firstAttribute="leading" secondItem="9rL-AS-OqN" secondAttribute="leading" id="Za1-Rj-Ezh"/>
+                            <constraint firstItem="9rL-AS-OqN" firstAttribute="trailing" secondItem="Llp-ZR-ixe" secondAttribute="trailing" id="shD-na-3f3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9rL-AS-OqN"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="TabBarTransaction" id="lMg-Vf-JKr"/>
                     <navigationItem key="navigationItem" title="Transactions" id="83l-6D-e2r"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="Llp-ZR-ixe" id="3jp-SN-AZI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78G-6V-W5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,4 +63,7 @@
             <point key="canvasLocation" x="948" y="148.87556221889056"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TabBarTransaction" width="20" height="20"/>
+    </resources>
 </document>

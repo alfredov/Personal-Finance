@@ -26,6 +26,16 @@
 		385056A021F62B2900E1452B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850569E21F62B2900E1452B /* Main.storyboard */; };
 		385056A321F62BC900E1452B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385056A221F62BC900E1452B /* Transactions.storyboard */; };
 		385056A421F62BC900E1452B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385056A221F62BC900E1452B /* Transactions.storyboard */; };
+		3864D0C121F64338008C245B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C021F64338008C245B /* TableViewCell.xib */; };
+		3864D0C221F64338008C245B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C021F64338008C245B /* TableViewCell.xib */; };
+		3864D0C421F64342008C245B /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C321F64342008C245B /* EmptyView.xib */; };
+		3864D0C521F64342008C245B /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C321F64342008C245B /* EmptyView.xib */; };
+		3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C621F643A2008C245B /* TransactionsViewController.swift */; };
+		3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C621F643A2008C245B /* TransactionsViewController.swift */; };
+		3864D0CA21F64436008C245B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C921F64436008C245B /* UI.swift */; };
+		3864D0CB21F64436008C245B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C921F64436008C245B /* UI.swift */; };
+		3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0D021F64E62008C245B /* TableViewCell.swift */; };
+		3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0D021F64E62008C245B /* TableViewCell.swift */; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
@@ -72,6 +82,11 @@
 		3850569621F61FCC00E1452B /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
 		3850569E21F62B2900E1452B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		385056A221F62BC900E1452B /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		3864D0C021F64338008C245B /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		3864D0C321F64342008C245B /* EmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
+		3864D0C621F643A2008C245B /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		3864D0C921F64436008C245B /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		3864D0D021F64E62008C245B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +141,28 @@
 			isa = PBXGroup;
 			children = (
 				385056A221F62BC900E1452B /* Transactions.storyboard */,
+				3864D0C621F643A2008C245B /* TransactionsViewController.swift */,
 			);
 			path = Transactions;
+			sourceTree = "<group>";
+		};
+		3864D0BF21F64323008C245B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3864D0CC21F64C53008C245B /* TableViewCell */,
+				3864D0C321F64342008C245B /* EmptyView.xib */,
+				3864D0C921F64436008C245B /* UI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3864D0CC21F64C53008C245B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3864D0C021F64338008C245B /* TableViewCell.xib */,
+				3864D0D021F64E62008C245B /* TableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		38891F7C21F5271A003E04C0 /* Base */ = {
@@ -144,6 +179,7 @@
 		38891F7D21F52742003E04C0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				3864D0BF21F64323008C245B /* UI */,
 				385056A121F62B8C00E1452B /* Transactions */,
 				3850568F21F61DAB00E1452B /* Animation */,
 				38891F8021F52792003E04C0 /* Main */,
@@ -299,6 +335,8 @@
 				3850569121F61EF700E1452B /* Lottie.storyboard in Resources */,
 				3850567F21F610D600E1452B /* Cartfile in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
+				3864D0C121F64338008C245B /* TableViewCell.xib in Resources */,
+				3864D0C421F64342008C245B /* EmptyView.xib in Resources */,
 				3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
 				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
@@ -314,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3850568021F610D600E1452B /* Cartfile in Resources */,
+				3864D0C221F64338008C245B /* TableViewCell.xib in Resources */,
 				385056A021F62B2900E1452B /* Main.storyboard in Resources */,
 				385056A421F62BC900E1452B /* Transactions.storyboard in Resources */,
 				3850569221F61EF700E1452B /* Lottie.storyboard in Resources */,
@@ -321,6 +360,7 @@
 				3850568E21F61AA700E1452B /* Media.xcassets in Resources */,
 				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
 				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
+				3864D0C521F64342008C245B /* EmptyView.xib in Resources */,
 				3850569821F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
 				3850568B21F6170100E1452B /* Colors.xcassets in Resources */,
@@ -373,8 +413,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */,
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
+				3864D0CA21F64436008C245B /* UI.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
+				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +425,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */,
 				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
+				3864D0CB21F64436008C245B /* UI.swift in Sources */,
 				3850569521F61F1300E1452B /* LottieViewController.swift in Sources */,
+				3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
