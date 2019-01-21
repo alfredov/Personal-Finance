@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
+		3850568021F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
+		3850568421F611B400E1452B /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; };
+		3850568521F611B400E1452B /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
@@ -21,7 +25,23 @@
 		38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3850568621F611B400E1452B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3850568521F611B400E1452B /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		3850568221F611AE00E1452B /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3850568421F611B400E1452B /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3850568121F611AD00E1452B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3850568221F611AE00E1452B /* Lottie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		38891F7C21F5271A003E04C0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +130,11 @@
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
+				3850567E21F610D600E1452B /* Cartfile */,
 				38891F8121F528F7003E04C0 /* .gitignore */,
 				38E0DA0721F5121C00651235 /* Personal Finance */,
 				38E0DA0621F5121C00651235 /* Products */,
+				3850568121F611AD00E1452B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +175,8 @@
 				38E0DA0121F5121C00651235 /* Sources */,
 				38E0DA0221F5121C00651235 /* Frameworks */,
 				38E0DA0321F5121C00651235 /* Resources */,
+				3850568621F611B400E1452B /* Embed Frameworks */,
+				3850568721F6123600E1452B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -210,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3850567F21F610D600E1452B /* Cartfile in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
 				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
@@ -222,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3850568021F610D600E1452B /* Cartfile in Resources */,
 				38891F8321F528F7003E04C0 /* .gitignore in Resources */,
 				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
 				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
@@ -231,6 +266,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3850568721F6123600E1452B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38E0DA0121F5121C00651235 /* Sources */ = {
@@ -385,6 +441,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Personal Finance/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -403,6 +463,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Personal Finance/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
