@@ -10,17 +10,21 @@ import UIKit
 
 class TransactionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    var components = UI()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
-        tableView.register(UI.getTableViewCell(), forCellReuseIdentifier: "cell") 
+        tableView.register(components.tableViewCell, forCellReuseIdentifier: "cell")
     }
 }
 
 extension TransactionsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+        let count = 8
+        tableView.backgroundView = count == 0 ? components.emptyStateView : nil
+        tableView.separatorStyle = count == 0 ? .none : .singleLine
+        return count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

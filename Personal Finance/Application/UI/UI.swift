@@ -13,7 +13,17 @@ enum UINamed: String {
 }
 
 struct UI {
-    static public func getTableViewCell() -> UINib {
-        return UINib(nibName: UINamed.TableViewCell.rawValue, bundle: Bundle.main)
-    }
+    public lazy var emptyStateView: UIView = {
+        guard let view = Bundle.main.loadNibNamed(UINamed.EmptyView.rawValue, owner: nil, options: [:])?.first as? UIView else {
+            return UIView()
+        }
+        return view
+    }()
+    
+    public lazy var tableViewCell: UINib? = {
+        guard let cell = UINib(nibName: UINamed.TableViewCell.rawValue, bundle: Bundle.main) as? UINib else {
+            return nil
+        }
+        return cell
+    }()
 }
