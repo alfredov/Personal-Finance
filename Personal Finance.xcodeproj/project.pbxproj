@@ -18,6 +18,7 @@
 		38E0DA2121F51C2000651235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA0F21F5121D00651235 /* Assets.xcassets */; };
 		38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2821F51D9F00651235 /* MainProd.storyboard */; };
 		38E0DA2A21F51E7500651235 /* production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2721F51C2000651235 /* production.plist */; };
+		38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		38E0DA2621F51C2000651235 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0DA2721F51C2000651235 /* production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = production.plist; path = "/Users/alfredo/Developer/IOS/Personal Finance/production.plist"; sourceTree = "<absolute>"; };
 		38E0DA2821F51D9F00651235 /* MainProd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProd.storyboard; sourceTree = "<group>"; };
+		38FDB44F21F5593900AEF887 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		38891F7E21F52764003E04C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				38FDB44E21F5591600AEF887 /* Colors */,
 				38891F7F21F5277D003E04C0 /* Images */,
 			);
 			path = Resources;
@@ -121,6 +124,14 @@
 				38891F7C21F5271A003E04C0 /* Base */,
 			);
 			path = "Personal Finance";
+			sourceTree = "<group>";
+		};
+		38FDB44E21F5591600AEF887 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				38FDB44F21F5593900AEF887 /* Colors.xcassets */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
 				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
 				38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */,
