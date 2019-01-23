@@ -39,6 +39,8 @@
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
+		38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
+		38C9847321F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
 		38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
 		38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
 		38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
@@ -89,6 +91,7 @@
 		3864D0D021F64E62008C245B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0DA0821F5121C00651235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E0DA1221F5121D00651235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -214,6 +217,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		38C9847021F8AAB5002E5A0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38C9847121F8AADB002E5A0E /* Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +248,7 @@
 		38E0DA0721F5121C00651235 /* Personal Finance */ = {
 			isa = PBXGroup;
 			children = (
+				38C9847021F8AAB5002E5A0E /* Extensions */,
 				38891F7E21F52764003E04C0 /* Resources */,
 				38891F7D21F52742003E04C0 /* Application */,
 				38891F7C21F5271A003E04C0 /* Base */,
@@ -416,6 +428,7 @@
 				3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */,
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
 				3864D0CA21F64436008C245B /* UI.swift in Sources */,
+				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
@@ -428,6 +441,7 @@
 				3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */,
 				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
 				3864D0CB21F64436008C245B /* UI.swift in Sources */,
+				38C9847321F8AADB002E5A0E /* Shadow.swift in Sources */,
 				3850569521F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
