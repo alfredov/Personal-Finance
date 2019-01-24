@@ -26,6 +26,18 @@
 		385056A021F62B2900E1452B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850569E21F62B2900E1452B /* Main.storyboard */; };
 		385056A321F62BC900E1452B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385056A221F62BC900E1452B /* Transactions.storyboard */; };
 		385056A421F62BC900E1452B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385056A221F62BC900E1452B /* Transactions.storyboard */; };
+		3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */; };
+		3852966C21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */; };
+		3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
+		3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
+		3852967221FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
+		3852967321FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
+		386469C221FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
+		386469C321FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
+		386469C621FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
+		386469C721FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
+		386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386469C821FA1FFD0077653E /* OnBoardingViewController.swift */; };
+		386469CA21FA1FFD0077653E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386469C821FA1FFD0077653E /* OnBoardingViewController.swift */; };
 		3864D0C121F64338008C245B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C021F64338008C245B /* TableViewCell.xib */; };
 		3864D0C221F64338008C245B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C021F64338008C245B /* TableViewCell.xib */; };
 		3864D0C421F64342008C245B /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C321F64342008C245B /* EmptyView.xib */; };
@@ -88,6 +100,12 @@
 		3850569621F61FCC00E1452B /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
 		3850569E21F62B2900E1452B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		385056A221F62BC900E1452B /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
+		3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		3852967121FA513C00960C69 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		386469C121FA12790077653E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		386469C521FA14450077653E /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
+		386469C821FA1FFD0077653E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		3864D0C021F64338008C245B /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		3864D0C321F64342008C245B /* EmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
 		3864D0C621F643A2008C245B /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
@@ -155,9 +173,46 @@
 			path = Transactions;
 			sourceTree = "<group>";
 		};
+		3852967021FA511A00960C69 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3852967121FA513C00960C69 /* SignIn.storyboard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		386469BF21F9FAD30077653E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3852967021FA511A00960C69 /* SignIn */,
+				386469C021F9FAF70077653E /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		386469C021F9FAF70077653E /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				386469C121FA12790077653E /* OnBoarding.storyboard */,
+				386469C821FA1FFD0077653E /* OnBoardingViewController.swift */,
+				3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */,
+				3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		386469C421FA13C70077653E /* PrimaryButton */ = {
+			isa = PBXGroup;
+			children = (
+				386469C521FA14450077653E /* PrimaryButton.xib */,
+			);
+			path = PrimaryButton;
+			sourceTree = "<group>";
+		};
 		3864D0BF21F64323008C245B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				386469C421FA13C70077653E /* PrimaryButton */,
 				3864D0CC21F64C53008C245B /* TableViewCell */,
 				3864D0C321F64342008C245B /* EmptyView.xib */,
 				3864D0C921F64436008C245B /* UI.swift */,
@@ -188,6 +243,7 @@
 		38891F7D21F52742003E04C0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				386469BF21F9FAD30077653E /* Authentication */,
 				38C9847421F8AF8F002E5A0E /* Budget */,
 				3864D0BF21F64323008C245B /* UI */,
 				385056A121F62B8C00E1452B /* Transactions */,
@@ -360,6 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3852967221FA513C00960C69 /* SignIn.storyboard in Resources */,
 				3850569121F61EF700E1452B /* Lottie.storyboard in Resources */,
 				3850567F21F610D600E1452B /* Cartfile in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
@@ -371,8 +428,10 @@
 				3850569F21F62B2900E1452B /* Main.storyboard in Resources */,
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
 				38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */,
+				386469C221FA12790077653E /* OnBoarding.storyboard in Resources */,
 				38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */,
 				385056A321F62BC900E1452B /* Transactions.storyboard in Resources */,
+				386469C621FA14450077653E /* PrimaryButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +441,9 @@
 			files = (
 				3850568021F610D600E1452B /* Cartfile in Resources */,
 				3864D0C221F64338008C245B /* TableViewCell.xib in Resources */,
+				386469C721FA14450077653E /* PrimaryButton.xib in Resources */,
 				385056A021F62B2900E1452B /* Main.storyboard in Resources */,
+				3852967321FA513C00960C69 /* SignIn.storyboard in Resources */,
 				385056A421F62BC900E1452B /* Transactions.storyboard in Resources */,
 				3850569221F61EF700E1452B /* Lottie.storyboard in Resources */,
 				38C9847A21F8B261002E5A0E /* Budget.storyboard in Resources */,
@@ -394,6 +455,7 @@
 				3850569821F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
 				3850568B21F6170100E1452B /* Colors.xcassets in Resources */,
+				386469C321FA12790077653E /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +508,11 @@
 				3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */,
 				38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
+				386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
+				3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
 				3864D0CA21F64436008C245B /* UI.swift in Sources */,
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
+				3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
@@ -460,8 +525,11 @@
 				3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */,
 				38C9847D21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
 				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
+				386469CA21FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
+				3852966C21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
 				3864D0CB21F64436008C245B /* UI.swift in Sources */,
 				38C9847321F8AADB002E5A0E /* Shadow.swift in Sources */,
+				3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
 				3850569521F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);

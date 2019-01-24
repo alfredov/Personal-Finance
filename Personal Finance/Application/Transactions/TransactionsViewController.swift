@@ -38,5 +38,4 @@ extension TransactionsViewController: UITableViewDataSource {
         return cell
     }
     
-    
 }
