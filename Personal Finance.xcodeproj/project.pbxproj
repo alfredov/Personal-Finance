@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
+		383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
+		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
+		383E8E9D21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
 		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
 		3850568021F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
 		3850568421F611B400E1452B /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; };
@@ -92,6 +96,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		3850568221F611AE00E1452B /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		3850568C21F61AA700E1452B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -146,6 +152,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383E8E9A21FBE5320087F74F /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				383E8E9B21FBE6300087F74F /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
 		3850568121F611AD00E1452B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +257,7 @@
 		38891F7D21F52742003E04C0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				383E8E9A21FBE5320087F74F /* Add */,
 				386469BF21F9FAD30077653E /* Authentication */,
 				38C9847421F8AF8F002E5A0E /* Budget */,
 				3864D0BF21F64323008C245B /* UI */,
@@ -276,6 +291,7 @@
 				38891F7A21F522E1003E04C0 /* MainDev.storyboard */,
 				38E0DA2821F51D9F00651235 /* MainProd.storyboard */,
 				3850569E21F62B2900E1452B /* Main.storyboard */,
+				383E8E9721FBDF800087F74F /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -421,6 +437,7 @@
 				3850567F21F610D600E1452B /* Cartfile in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
 				3864D0C121F64338008C245B /* TableViewCell.xib in Resources */,
+				383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */,
 				3864D0C421F64342008C245B /* EmptyView.xib in Resources */,
 				3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
@@ -443,6 +460,7 @@
 				3864D0C221F64338008C245B /* TableViewCell.xib in Resources */,
 				386469C721FA14450077653E /* PrimaryButton.xib in Resources */,
 				385056A021F62B2900E1452B /* Main.storyboard in Resources */,
+				383E8E9D21FBE6300087F74F /* Add.storyboard in Resources */,
 				3852967321FA513C00960C69 /* SignIn.storyboard in Resources */,
 				385056A421F62BC900E1452B /* Transactions.storyboard in Resources */,
 				3850569221F61EF700E1452B /* Lottie.storyboard in Resources */,
@@ -507,6 +525,7 @@
 			files = (
 				3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */,
 				38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
+				383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */,
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
 				386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
 				3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
@@ -524,6 +543,7 @@
 			files = (
 				3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */,
 				38C9847D21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
+				383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */,
 				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
 				386469CA21FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
 				3852966C21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
