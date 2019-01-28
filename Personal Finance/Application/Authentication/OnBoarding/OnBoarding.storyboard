@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QxN-kn-bgy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="id4-xB-kqN">
+            <objects>
+                <viewController id="QxN-kn-bgy" customClass="OnBoardingContainerViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7dS-pU-zjD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wy1-mb-uzX">
+                                <rect key="frame" x="0.0" y="20" width="375" height="758"/>
+                                <connections>
+                                    <segue destination="tox-Yu-oTt" kind="embed" identifier="openOnBoarding" id="PYp-L9-0Kw"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAc-cS-PHa">
+                                <rect key="frame" x="20" y="602" width="335" height="45"/>
+                                <color key="backgroundColor" name="GreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="WE5-hz-oEG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Sign in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderUIColor">
+                                        <color key="value" name="GreenShadow"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="dFf-x0-vDH" kind="presentation" identifier="goToSignIn" id="xo2-m8-rV9"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="psY-pE-Ogf">
+                                <rect key="frame" x="168" y="482" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" name="GrayColor"/>
+                                <color key="currentPageIndicatorTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qDg-4f-eji" firstAttribute="trailing" secondItem="nAc-cS-PHa" secondAttribute="trailing" constant="20" id="4ai-tK-3VZ"/>
+                            <constraint firstAttribute="bottom" secondItem="wy1-mb-uzX" secondAttribute="bottom" constant="-111" id="DUG-TC-MFT"/>
+                            <constraint firstItem="qDg-4f-eji" firstAttribute="bottom" secondItem="nAc-cS-PHa" secondAttribute="bottom" constant="20" id="GPr-CI-Je8"/>
+                            <constraint firstItem="nAc-cS-PHa" firstAttribute="leading" secondItem="qDg-4f-eji" secondAttribute="leading" constant="20" id="HKi-ST-wKM"/>
+                            <constraint firstItem="qDg-4f-eji" firstAttribute="trailing" secondItem="wy1-mb-uzX" secondAttribute="trailing" id="JeM-ue-SP1"/>
+                            <constraint firstItem="psY-pE-Ogf" firstAttribute="centerX" secondItem="7dS-pU-zjD" secondAttribute="centerX" id="Jlo-Fv-y4m"/>
+                            <constraint firstItem="nAc-cS-PHa" firstAttribute="top" secondItem="psY-pE-Ogf" secondAttribute="bottom" constant="83" id="Mpz-Xz-9bg"/>
+                            <constraint firstItem="wy1-mb-uzX" firstAttribute="leading" secondItem="qDg-4f-eji" secondAttribute="leading" id="c4x-I5-cVh"/>
+                            <constraint firstItem="wy1-mb-uzX" firstAttribute="top" secondItem="qDg-4f-eji" secondAttribute="top" id="h8V-TR-1jr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qDg-4f-eji"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Ud2-1L-Jg2"/>
+                    <connections>
+                        <outlet property="pageControl" destination="psY-pE-Ogf" id="2TC-8U-vxI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v7g-Oq-3PG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="716"/>
+        </scene>
+        <!--SignIn-->
+        <scene sceneID="KnU-Em-E0C">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignIn" id="dFf-x0-vDH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJ6-Va-9zQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="1143"/>
+        </scene>
+        <!--On Boarding View Controller-->
+        <scene sceneID="IU6-kq-2Zr">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="tox-Yu-oTt" customClass="OnBoardingViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUq-aA-NbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823" y="715"/>
+        </scene>
+        <!--On Boarding Steps View Controller-->
+        <scene sceneID="2EF-DX-gTl">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingSteps" id="bcn-ux-W1l" customClass="OnBoardingStepsViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3RB-VF-eBf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OnBoarding1" translatesAutoresizingMaskIntoConstraints="NO" id="uZB-ea-V6F">
+                                <rect key="frame" x="89.5" y="135.5" width="196" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uZB-ea-V6F" secondAttribute="height" multiplier="1:1" id="asw-y0-K2e"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="fhp-Ej-AkO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gP0-Gj-Osa">
+                                <rect key="frame" x="20" y="351.5" width="335" height="49.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
+                                <color key="textColor" name="GreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pI-ki-0Vm">
+                                <rect key="frame" x="20" y="409" width="335" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" name="GrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qfg-PO-Ss6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uZB-ea-V6F" secondAttribute="trailing" constant="62" id="3l6-Ge-NeU"/>
+                            <constraint firstItem="7pI-ki-0Vm" firstAttribute="leading" secondItem="Qfg-PO-Ss6" secondAttribute="leading" constant="20" id="BvV-Ut-exl"/>
+                            <constraint firstItem="Qfg-PO-Ss6" firstAttribute="trailing" secondItem="gP0-Gj-Osa" secondAttribute="trailing" constant="20" id="Cnf-OL-Og9"/>
+                            <constraint firstItem="7pI-ki-0Vm" firstAttribute="top" secondItem="gP0-Gj-Osa" secondAttribute="bottom" constant="8" id="V7H-ID-e0F"/>
+                            <constraint firstItem="gP0-Gj-Osa" firstAttribute="top" secondItem="uZB-ea-V6F" secondAttribute="bottom" constant="20" id="WFC-LX-ktN"/>
+                            <constraint firstItem="uZB-ea-V6F" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qfg-PO-Ss6" secondAttribute="leading" constant="62" id="Xvj-Zn-tZs"/>
+                            <constraint firstItem="uZB-ea-V6F" firstAttribute="centerY" secondItem="3RB-VF-eBf" secondAttribute="centerY" constant="-100" id="ZnZ-cT-j4S"/>
+                            <constraint firstItem="uZB-ea-V6F" firstAttribute="centerX" secondItem="3RB-VF-eBf" secondAttribute="centerX" id="jpH-Tg-kIC"/>
+                            <constraint firstItem="gP0-Gj-Osa" firstAttribute="leading" secondItem="Qfg-PO-Ss6" secondAttribute="leading" constant="20" id="uM0-M6-4NW"/>
+                            <constraint firstItem="Qfg-PO-Ss6" firstAttribute="trailing" secondItem="7pI-ki-0Vm" secondAttribute="trailing" constant="20" id="zA0-5A-erV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qfg-PO-Ss6"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="7pI-ki-0Vm" id="Zpc-BA-ABM"/>
+                        <outlet property="onBoardingImage" destination="uZB-ea-V6F" id="rEY-zw-kTg"/>
+                        <outlet property="titleLabel" destination="gP0-Gj-Osa" id="Mxt-WJ-Pfh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvh-AL-lkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2734" y="669"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="OnBoarding1" width="196" height="185"/>
+        <namedColor name="GrayColor">
+            <color red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenShadow">
+            <color red="0.31764705882352939" green="0.39215686274509803" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
