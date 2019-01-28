@@ -61,6 +61,10 @@
 		38C9847A21F8B261002E5A0E /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C9847821F8B261002E5A0E /* Budget.storyboard */; };
 		38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
 		38C9847D21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
+		38D1335821FE916A003A749C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335721FE916A003A749C /* Profile.storyboard */; };
+		38D1335921FE916A003A749C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335721FE916A003A749C /* Profile.storyboard */; };
+		38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335A21FE91D5003A749C /* Statistics.storyboard */; };
+		38D1335C21FE91D5003A749C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335A21FE91D5003A749C /* Statistics.storyboard */; };
 		38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
 		38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
 		38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
@@ -122,6 +126,8 @@
 		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		38C9847821F8B261002E5A0E /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		38C9847B21F8B376002E5A0E /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		38D1335721FE916A003A749C /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		38D1335A21FE91D5003A749C /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Statistics.storyboard; path = "Personal Finance/Application/Statistics/Statistics.storyboard"; sourceTree = SOURCE_ROOT; };
 		38E0DA0521F5121C00651235 /* Personal Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0DA0821F5121C00651235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E0DA1221F5121D00651235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -257,6 +263,8 @@
 		38891F7D21F52742003E04C0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				38D1335621FE90F7003A749C /* Statistics */,
+				38D1335521FE90EC003A749C /* Profile */,
 				383E8E9A21FBE5320087F74F /* Add */,
 				386469BF21F9FAD30077653E /* Authentication */,
 				38C9847421F8AF8F002E5A0E /* Budget */,
@@ -311,6 +319,22 @@
 				38C9847B21F8B376002E5A0E /* BudgetViewController.swift */,
 			);
 			path = Budget;
+			sourceTree = "<group>";
+		};
+		38D1335521FE90EC003A749C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				38D1335721FE916A003A749C /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		38D1335621FE90F7003A749C /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				38D1335A21FE91D5003A749C /* Statistics.storyboard */,
+			);
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 		38E0D9FC21F5121C00651235 = {
@@ -438,6 +462,7 @@
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
 				3864D0C121F64338008C245B /* TableViewCell.xib in Resources */,
 				383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */,
+				38D1335821FE916A003A749C /* Profile.storyboard in Resources */,
 				3864D0C421F64342008C245B /* EmptyView.xib in Resources */,
 				3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
@@ -446,6 +471,7 @@
 				38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */,
 				38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */,
 				386469C221FA12790077653E /* OnBoarding.storyboard in Resources */,
+				38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */,
 				38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */,
 				385056A321F62BC900E1452B /* Transactions.storyboard in Resources */,
 				386469C621FA14450077653E /* PrimaryButton.xib in Resources */,
@@ -457,7 +483,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3850568021F610D600E1452B /* Cartfile in Resources */,
+				38D1335921FE916A003A749C /* Profile.storyboard in Resources */,
 				3864D0C221F64338008C245B /* TableViewCell.xib in Resources */,
+				38D1335C21FE91D5003A749C /* Statistics.storyboard in Resources */,
 				386469C721FA14450077653E /* PrimaryButton.xib in Resources */,
 				385056A021F62B2900E1452B /* Main.storyboard in Resources */,
 				383E8E9D21FBE6300087F74F /* Add.storyboard in Resources */,

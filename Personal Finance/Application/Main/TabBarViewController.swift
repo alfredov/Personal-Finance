@@ -29,7 +29,7 @@ class TabBarViewController: UITabBarController {
     }
     
     @objc private func menuButtonAction(sender: UIButton) {
-        selectedIndex = 1
+        selectedIndex = 2
     }
 
 }
