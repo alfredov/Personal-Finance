@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */; };
+		0A3B3B2498A3969E34C4879B /* Pods_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338018D003E44C24F91BA542 /* Pods_Production.framework */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
@@ -100,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		338018D003E44C24F91BA542 /* Pods_Production.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Production.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -136,6 +139,11 @@
 		38E0DA2721F51C2000651235 /* production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = production.plist; path = "/Users/alfredo/Developer/IOS/Personal Finance/production.plist"; sourceTree = "<absolute>"; };
 		38E0DA2821F51D9F00651235 /* MainProd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProd.storyboard; sourceTree = "<group>"; };
 		38FDB44F21F5593900AEF887 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personal_Finance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C686C9B84B314F99B7B19350 /* Pods-Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Production/Pods-Production.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4CB7B639198D43C80B20C7 /* Pods-Personal Finance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personal Finance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance.debug.xcconfig"; sourceTree = "<group>"; };
+		E39583890FAB3609AE7A7419 /* Pods-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.release.xcconfig"; path = "Pods/Target Support Files/Pods-Production/Pods-Production.release.xcconfig"; sourceTree = "<group>"; };
+		E532BC7A61D8036F466BAD3F /* Pods-Personal Finance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personal Finance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3850568421F611B400E1452B /* Lottie.framework in Frameworks */,
+				01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3850569A21F620D100E1452B /* Lottie.framework in Frameworks */,
+				0A3B3B2498A3969E34C4879B /* Pods_Production.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				3850568221F611AE00E1452B /* Lottie.framework */,
+				4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */,
+				338018D003E44C24F91BA542 /* Pods_Production.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -345,6 +357,7 @@
 				38E0DA0721F5121C00651235 /* Personal Finance */,
 				38E0DA0621F5121C00651235 /* Products */,
 				3850568121F611AD00E1452B /* Frameworks */,
+				BF7FEE0D50B908B17CD4A025 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -376,6 +389,17 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		BF7FEE0D50B908B17CD4A025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4CB7B639198D43C80B20C7 /* Pods-Personal Finance.debug.xcconfig */,
+				E532BC7A61D8036F466BAD3F /* Pods-Personal Finance.release.xcconfig */,
+				C686C9B84B314F99B7B19350 /* Pods-Production.debug.xcconfig */,
+				E39583890FAB3609AE7A7419 /* Pods-Production.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,11 +407,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38E0DA1721F5121D00651235 /* Build configuration list for PBXNativeTarget "Personal Finance" */;
 			buildPhases = (
+				1B6CEB2817B9CB87EF64F5E5 /* [CP] Check Pods Manifest.lock */,
 				38E0DA0121F5121C00651235 /* Sources */,
 				38E0DA0221F5121C00651235 /* Frameworks */,
 				38E0DA0321F5121C00651235 /* Resources */,
 				3850568621F611B400E1452B /* Embed Frameworks */,
 				3850568721F6123600E1452B /* ShellScript */,
+				0F698D9E1474D324B48D23C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,11 +428,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38E0DA2321F51C2000651235 /* Build configuration list for PBXNativeTarget "Production" */;
 			buildPhases = (
+				87BE5549CEC1DD760D2D8CFB /* [CP] Check Pods Manifest.lock */,
 				38E0DA1B21F51C2000651235 /* Sources */,
 				38E0DA1E21F51C2000651235 /* Frameworks */,
 				38E0DA1F21F51C2000651235 /* Resources */,
 				3850569C21F620D100E1452B /* Embed Frameworks */,
 				3850569D21F620DD00E1452B /* ShellScript */,
+				EC3525C992C2C367B11C2854 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -508,6 +536,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F698D9E1474D324B48D23C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B6CEB2817B9CB87EF64F5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personal Finance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3850568721F6123600E1452B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -543,6 +619,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		87BE5549CEC1DD760D2D8CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Production-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC3525C992C2C367B11C2854 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Production/Pods-Production-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Production/Pods-Production-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -715,6 +839,7 @@
 		};
 		38E0DA1821F5121D00651235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4CB7B639198D43C80B20C7 /* Pods-Personal Finance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -737,6 +862,7 @@
 		};
 		38E0DA1921F5121D00651235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E532BC7A61D8036F466BAD3F /* Pods-Personal Finance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -759,6 +885,7 @@
 		};
 		38E0DA2421F51C2000651235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C686C9B84B314F99B7B19350 /* Pods-Production.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -781,6 +908,7 @@
 		};
 		38E0DA2521F51C2000651235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39583890FAB3609AE7A7419 /* Pods-Production.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
