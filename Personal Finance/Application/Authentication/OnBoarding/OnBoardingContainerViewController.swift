@@ -18,6 +18,11 @@ class OnBoardingContainerViewController: UIViewController {
 
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToSignIn" {
+            UserDefaults.standard.set(true, forKey: "WatchedOnboarding")
+            UserDefaults.standard.synchronize()
+            return
+        }
         guard segue.identifier == "openOnBoarding", let destination = segue.destination as? OnBoardingViewController else {
             return
         }

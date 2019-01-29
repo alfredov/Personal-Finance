@@ -15,8 +15,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        initializeController()
         return true
+    }
+    
+    func initializeController() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let onBoarding = UserDefaults.standard.value(forKey: "WatchedOnboarding") as? Bool ?? false
+        var name = "OnBoarding"
+        
+        if onBoarding {
+            name = "SignIn"
+        }
+        
+        let viewController = UIStoryboard(name: name, bundle: Bundle.main).instantiateInitialViewController()
+        
+        window?.rootViewController = viewController
+        window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
