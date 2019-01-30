@@ -15,3 +15,12 @@ target 'Production' do
   pod 'Firebase/Auth'
 
 end
+
+plugin 'cocoapods-keys', {
+    :project => "PersonalFinance",
+    :target => "Personal Finance",
+    :keys => [
+    "TwitterConsumerKey",
+    "TwitterConsumerSecret"
+    ]
+}
