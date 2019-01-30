@@ -38,8 +38,6 @@
 		3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
 		3852967221FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
 		3852967321FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
-		385662A922012FBC0040662C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 385662A822012FBC0040662C /* GoogleService-Info.plist */; };
-		385662AA22012FBC0040662C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 385662A822012FBC0040662C /* GoogleService-Info.plist */; };
 		386469C221FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C321FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C621FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
@@ -75,6 +73,12 @@
 		38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
 		38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2821F51D9F00651235 /* MainProd.storyboard */; };
 		38E0DA2A21F51E7500651235 /* production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2721F51C2000651235 /* production.plist */; };
+		38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D42201EC8400819609 /* SignInViewController.swift */; };
+		38F6B9D62201EC8400819609 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D42201EC8400819609 /* SignInViewController.swift */; };
+		38F6B9D82201ED4700819609 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D72201ED4700819609 /* SignInViewModel.swift */; };
+		38F6B9D92201ED4700819609 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D72201ED4700819609 /* SignInViewModel.swift */; };
+		38F6B9DB2201FFBD00819609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */; };
+		38F6B9DC2201FFBD00819609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */; };
 		38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -118,7 +122,6 @@
 		3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		3852967121FA513C00960C69 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
-		385662A822012FBC0040662C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		386469C121FA12790077653E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		386469C521FA14450077653E /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		386469C821FA1FFD0077653E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +144,9 @@
 		38E0DA2621F51C2000651235 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0DA2721F51C2000651235 /* production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = production.plist; path = "/Users/alfredo/Developer/IOS/Personal Finance/production.plist"; sourceTree = "<absolute>"; };
 		38E0DA2821F51D9F00651235 /* MainProd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProd.storyboard; sourceTree = "<group>"; };
+		38F6B9D42201EC8400819609 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		38F6B9D72201ED4700819609 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38FDB44F21F5593900AEF887 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personal_Finance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C686C9B84B314F99B7B19350 /* Pods-Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Production/Pods-Production.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				3852967121FA513C00960C69 /* SignIn.storyboard */,
+				38F6B9D42201EC8400819609 /* SignInViewController.swift */,
+				38F6B9D72201ED4700819609 /* SignInViewModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -268,8 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				38E0DA0821F5121C00651235 /* AppDelegate.swift */,
+				38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */,
 				38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */,
-				385662A822012FBC0040662C /* GoogleService-Info.plist */,
 				38E0DA2721F51C2000651235 /* production.plist */,
 				38E0DA1421F5121D00651235 /* Info.plist */,
 			);
@@ -495,6 +503,7 @@
 				3864D0C121F64338008C245B /* TableViewCell.xib in Resources */,
 				383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */,
 				38D1335821FE916A003A749C /* Profile.storyboard in Resources */,
+				38F6B9DB2201FFBD00819609 /* GoogleService-Info.plist in Resources */,
 				3864D0C421F64342008C245B /* EmptyView.xib in Resources */,
 				3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
@@ -505,7 +514,6 @@
 				386469C221FA12790077653E /* OnBoarding.storyboard in Resources */,
 				38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */,
 				38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */,
-				385662A922012FBC0040662C /* GoogleService-Info.plist in Resources */,
 				385056A321F62BC900E1452B /* Transactions.storyboard in Resources */,
 				386469C621FA14450077653E /* PrimaryButton.xib in Resources */,
 			);
@@ -528,6 +536,7 @@
 				38C9847A21F8B261002E5A0E /* Budget.storyboard in Resources */,
 				38891F8321F528F7003E04C0 /* .gitignore in Resources */,
 				3850568E21F61AA700E1452B /* Media.xcassets in Resources */,
+				38F6B9DC2201FFBD00819609 /* GoogleService-Info.plist in Resources */,
 				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
 				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
 				3864D0C521F64342008C245B /* EmptyView.xib in Resources */,
@@ -535,7 +544,6 @@
 				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
 				3850568B21F6170100E1452B /* Colors.xcassets in Resources */,
 				386469C321FA12790077653E /* OnBoarding.storyboard in Resources */,
-				385662AA22012FBC0040662C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,10 +695,12 @@
 				38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
 				383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */,
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
+				38F6B9D82201ED4700819609 /* SignInViewModel.swift in Sources */,
 				386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
 				3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
 				3864D0CA21F64436008C245B /* UI.swift in Sources */,
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
+				38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */,
 				3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
@@ -705,10 +715,12 @@
 				38C9847D21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
 				383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */,
 				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
+				38F6B9D92201ED4700819609 /* SignInViewModel.swift in Sources */,
 				386469CA21FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
 				3852966C21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
 				3864D0CB21F64436008C245B /* UI.swift in Sources */,
 				38C9847321F8AADB002E5A0E /* Shadow.swift in Sources */,
+				38F6B9D62201EC8400819609 /* SignInViewController.swift in Sources */,
 				3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
 				3850569521F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */,

@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="SZz-On-4bA">
             <objects>
-                <viewController id="Cfk-bs-b12" sceneMemberID="viewController">
+                <viewController id="Cfk-bs-b12" customClass="SignInViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gsp-ci-bzl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,7 +170,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="PZu-ff-eOm" kind="presentation" id="olh-Ez-ilk"/>
+                                                            <action selector="signIn:" destination="Cfk-bs-b12" eventType="touchUpInside" id="Tym-nF-lpa"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -230,6 +230,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="50n-vg-94H"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="XfS-KE-Oae" id="USa-Pz-bUt"/>
+                        <outlet property="passwordTextField" destination="p3T-l2-vxV" id="ZTf-36-ujy"/>
+                        <segue destination="PZu-ff-eOm" kind="presentation" identifier="goToMain" id="piT-EP-Pao"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMF-Rq-wQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
