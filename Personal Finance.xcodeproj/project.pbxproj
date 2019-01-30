@@ -38,6 +38,8 @@
 		3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
 		3852967221FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
 		3852967321FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
+		385662A922012FBC0040662C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 385662A822012FBC0040662C /* GoogleService-Info.plist */; };
+		385662AA22012FBC0040662C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 385662A822012FBC0040662C /* GoogleService-Info.plist */; };
 		386469C221FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C321FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C621FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
@@ -116,6 +118,7 @@
 		3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		3852967121FA513C00960C69 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		385662A822012FBC0040662C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		386469C121FA12790077653E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		386469C521FA14450077653E /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		386469C821FA1FFD0077653E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -266,6 +269,7 @@
 			children = (
 				38E0DA0821F5121C00651235 /* AppDelegate.swift */,
 				38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */,
+				385662A822012FBC0040662C /* GoogleService-Info.plist */,
 				38E0DA2721F51C2000651235 /* production.plist */,
 				38E0DA1421F5121D00651235 /* Info.plist */,
 			);
@@ -501,6 +505,7 @@
 				386469C221FA12790077653E /* OnBoarding.storyboard in Resources */,
 				38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */,
 				38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */,
+				385662A922012FBC0040662C /* GoogleService-Info.plist in Resources */,
 				385056A321F62BC900E1452B /* Transactions.storyboard in Resources */,
 				386469C621FA14450077653E /* PrimaryButton.xib in Resources */,
 			);
@@ -530,6 +535,7 @@
 				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
 				3850568B21F6170100E1452B /* Colors.xcassets in Resources */,
 				386469C321FA12790077653E /* OnBoarding.storyboard in Resources */,
+				385662AA22012FBC0040662C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
