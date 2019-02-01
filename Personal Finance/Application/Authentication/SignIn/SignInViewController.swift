@@ -32,6 +32,21 @@ class SignInViewController: UIViewController {
         }
     }
     
+    @IBAction func signInWithTwitter(_ sender: UIButton) {
+        SignInViewModel.authWithTwitter {[weak self] (success, error) in
+            if let error = error {
+                let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+                let acceptAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+                alertController.addAction(acceptAction)
+                self?.present(alertController, animated: true, completion: nil)
+                return
+            }
+            
+            if success {
+                self?.performSegue(withIdentifier: "goToMain", sender: self)
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation

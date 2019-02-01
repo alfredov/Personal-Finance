@@ -54,6 +54,10 @@
 		3864D0CB21F64436008C245B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C921F64436008C245B /* UI.swift */; };
 		3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0D021F64E62008C245B /* TableViewCell.swift */; };
 		3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0D021F64E62008C245B /* TableViewCell.swift */; };
+		38780D3F2203D93500F4E3A0 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */; };
+		38780D402203D93500F4E3A0 /* TwitterCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38780D412203D93500F4E3A0 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */; };
+		38780D422203D93500F4E3A0 /* TwitterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
@@ -90,6 +94,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3850568521F611B400E1452B /* Lottie.framework in Embed Frameworks */,
+				38780D402203D93500F4E3A0 /* TwitterCore.framework in Embed Frameworks */,
+				38780D422203D93500F4E3A0 /* TwitterKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +115,10 @@
 
 /* Begin PBXFileReference section */
 		338018D003E44C24F91BA542 /* Pods_Production.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Production.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3804B6EB22024BD300C9C808 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3804B6EC22024BD300C9C808 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
+		3804B6ED22024BD300C9C808 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
+		3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -130,6 +140,8 @@
 		3864D0C621F643A2008C245B /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		3864D0C921F64436008C245B /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		3864D0D021F64E62008C245B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = Carthage/Build/iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = Carthage/Build/iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -160,8 +172,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38780D3F2203D93500F4E3A0 /* TwitterCore.framework in Frameworks */,
 				3850568421F611B400E1452B /* Lottie.framework in Frameworks */,
 				01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */,
+				38780D412203D93500F4E3A0 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +202,12 @@
 		3850568121F611AD00E1452B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */,
+				38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */,
+				3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */,
+				3804B6EC22024BD300C9C808 /* FacebookCore.framework */,
+				3804B6ED22024BD300C9C808 /* FacebookLogin.framework */,
+				3804B6EB22024BD300C9C808 /* FBSDKLoginKit.framework */,
 				3850568221F611AE00E1452B /* Lottie.framework */,
 				4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */,
 				338018D003E44C24F91BA542 /* Pods_Production.framework */,

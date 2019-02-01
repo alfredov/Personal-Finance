@@ -98,6 +98,9 @@
                                                 <color key="value" name="GreenShadow"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="signInWithTwitter:" destination="Cfk-bs-b12" eventType="touchUpInside" id="eSD-z4-3Lu"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
