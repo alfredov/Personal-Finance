@@ -48,6 +48,7 @@ playground.xcworkspace
 #
 
 Pods/
+Pods/CocoaPodsKeys
 
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace

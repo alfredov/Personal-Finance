@@ -21,6 +21,7 @@ plugin 'cocoapods-keys', {
     :target => "Personal Finance",
     :keys => [
     "TwitterConsumerKey",
-    "TwitterConsumerSecret"
+    "TwitterConsumerSecret",
+    "DB_URL"
     ]
 }

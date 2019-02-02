@@ -36,8 +36,8 @@ class SignInViewController: UIViewController {
         SignInViewModel.authWithTwitter {[weak self] (success, error) in
             if let error = error {
                 let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
-                let acceptAction = UIAlertAction(title: "ok", style: .default, handler: nil)
-                alertController.addAction(acceptAction)
+                let ok = UIAlertAction(title: "ok", style: .default, handler: nil)
+                alertController.addAction(ok)
                 self?.present(alertController, animated: true, completion: nil)
                 return
             }
