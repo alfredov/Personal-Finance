@@ -6,6 +6,7 @@ target 'Personal Finance' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Sourcery'
 end
 
 target 'Production' do
@@ -16,12 +17,3 @@ target 'Production' do
 
 end
 
-plugin 'cocoapods-keys', {
-    :project => "PersonalFinance",
-    :target => "Personal Finance",
-    :keys => [
-    "TwitterConsumerKey",
-    "TwitterConsumerSecret",
-    "DB_URL"
-    ]
-}

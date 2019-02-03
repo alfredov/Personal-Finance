@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */; };
 		0A3B3B2498A3969E34C4879B /* Pods_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338018D003E44C24F91BA542 /* Pods_Production.framework */; };
+		381E13532205F9B200828CC7 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381E13522205F9B200828CC7 /* Development.xcconfig */; };
+		382994CE22064D2E00D089FE /* AppSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382994CD22064D2E00D089FE /* AppSecrets.swift */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
@@ -38,6 +40,7 @@
 		3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
 		3852967221FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
 		3852967321FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
+		3862EC38220644E0008C5A2A /* AppSecrets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3862EC37220644E0008C5A2A /* AppSecrets.stencil */; };
 		386469C221FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C321FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C621FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
@@ -119,6 +122,8 @@
 		3804B6EC22024BD300C9C808 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
 		3804B6ED22024BD300C9C808 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
 		3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		381E13522205F9B200828CC7 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		382994CD22064D2E00D089FE /* AppSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecrets.swift; sourceTree = "<group>"; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -132,6 +137,7 @@
 		3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		3852967121FA513C00960C69 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		3862EC37220644E0008C5A2A /* AppSecrets.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppSecrets.stencil; sourceTree = "<group>"; };
 		386469C121FA12790077653E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		386469C521FA14450077653E /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		386469C821FA1FFD0077653E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -300,6 +306,8 @@
 				38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */,
 				38E0DA2721F51C2000651235 /* production.plist */,
 				38E0DA1421F5121D00651235 /* Info.plist */,
+				381E13522205F9B200828CC7 /* Development.xcconfig */,
+				382994CD22064D2E00D089FE /* AppSecrets.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -384,6 +392,7 @@
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
+				3862EC37220644E0008C5A2A /* AppSecrets.stencil */,
 				3850567E21F610D600E1452B /* Cartfile */,
 				38891F8121F528F7003E04C0 /* .gitignore */,
 				38E0DA0721F5121C00651235 /* Personal Finance */,
@@ -446,6 +455,7 @@
 				3850568621F611B400E1452B /* Embed Frameworks */,
 				3850568721F6123600E1452B /* ShellScript */,
 				0F698D9E1474D324B48D23C7 /* [CP] Embed Pods Frameworks */,
+				381E1355220606DE00828CC7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -525,6 +535,7 @@
 				38D1335821FE916A003A749C /* Profile.storyboard in Resources */,
 				38F6B9DB2201FFBD00819609 /* GoogleService-Info.plist in Resources */,
 				3864D0C421F64342008C245B /* EmptyView.xib in Resources */,
+				381E13532205F9B200828CC7 /* Development.xcconfig in Resources */,
 				3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
 				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
@@ -534,6 +545,7 @@
 				386469C221FA12790077653E /* OnBoarding.storyboard in Resources */,
 				38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */,
 				38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */,
+				3862EC38220644E0008C5A2A /* AppSecrets.stencil in Resources */,
 				385056A321F62BC900E1452B /* Transactions.storyboard in Resources */,
 				386469C621FA14450077653E /* PrimaryButton.xib in Resources */,
 			);
@@ -581,7 +593,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -590,7 +601,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,6 +629,24 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		381E1355220606DE00828CC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./Pods/Sourcery/bin/sourcery --sources ./Personal\\ Finance --templates AppSecrets.stencil --output ./Personal\\ Finance/Base/AppSecrets.swift --args chatApiClientSecret=\\\"$CHAT_API_CLIENT_SECRET\\\",analyticsWriteKey=\\\"$ANALYTICS_WRITE_KEY\\\"\n";
 		};
 		3850568721F6123600E1452B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -722,6 +750,7 @@
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
 				38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */,
 				3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
+				382994CE22064D2E00D089FE /* AppSecrets.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
@@ -763,6 +792,7 @@
 /* Begin XCBuildConfiguration section */
 		38E0DA1521F5121D00651235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381E13522205F9B200828CC7 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -824,6 +854,7 @@
 		};
 		38E0DA1621F5121D00651235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381E13522205F9B200828CC7 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

@@ -9,21 +9,13 @@
 import UIKit
 import Firebase
 import TwitterKit
-import Keys
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let keys = PersonalFinanceKeys()
-        
-        TWTRTwitter.sharedInstance().start(
-            withConsumerKey: keys.twitterConsumerKey,
-            consumerSecret: keys.twitterConsumerSecret
-        )
         FirebaseApp.configure()
         initializeController()
         return true

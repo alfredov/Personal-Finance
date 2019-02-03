@@ -1,0 +1,13 @@
+//
+//  Development.xcconfig
+//  Personal Finance
+//
+//  Created by Alfredo Villagomez on 2/2/19.
+//  Copyright © 2019 Alfredo Villagomez. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CHAT_API_CLIENT_SECRET = chatSecret
+ANALYTICS_WRITE_KEY = analyticSecret
