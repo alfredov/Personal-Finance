@@ -8,6 +8,8 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance.debug.xcconfig"
 
-CHAT_API_CLIENT_SECRET = chatSecret
-ANALYTICS_WRITE_KEY = analyticSecret
+IS_APP_NAME = Finance Staging
+IS_APP_VERSION = 0.1
+IS_APP_BUNDLE_ID = website.alfredo.Personal-FinanceDev

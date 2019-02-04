@@ -1,0 +1,16 @@
+//
+//  Staging.xcconfig
+//  Personal Finance
+//
+//  Created by Alfredo Villagomez on 2/3/19.
+//  Copyright © 2019 Alfredo Villagomez. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance.staging.xcconfig"
+
+IS_APP_NAME = Finance Staging
+IS_APP_VERSION = 0.1
+IS_APP_BUNDLE_ID = website.alfredo.Personal-FinanceStaging

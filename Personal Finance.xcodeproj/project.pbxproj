@@ -8,84 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */; };
-		0A3B3B2498A3969E34C4879B /* Pods_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338018D003E44C24F91BA542 /* Pods_Production.framework */; };
 		381E13532205F9B200828CC7 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381E13522205F9B200828CC7 /* Development.xcconfig */; };
-		382994CE22064D2E00D089FE /* AppSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382994CD22064D2E00D089FE /* AppSecrets.swift */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
-		383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
-		383E8E9D21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
 		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
-		3850568021F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
 		3850568421F611B400E1452B /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; };
 		3850568521F611B400E1452B /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3850568B21F6170100E1452B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
 		3850568D21F61AA700E1452B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850568C21F61AA700E1452B /* Media.xcassets */; };
-		3850568E21F61AA700E1452B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850568C21F61AA700E1452B /* Media.xcassets */; };
 		3850569121F61EF700E1452B /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850569021F61EF700E1452B /* Lottie.storyboard */; };
-		3850569221F61EF700E1452B /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850569021F61EF700E1452B /* Lottie.storyboard */; };
 		3850569421F61F1300E1452B /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850569321F61F1300E1452B /* LottieViewController.swift */; };
-		3850569521F61F1300E1452B /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850569321F61F1300E1452B /* LottieViewController.swift */; };
 		3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = 3850569621F61FCC00E1452B /* day_of_the_dead_skull.json */; };
-		3850569821F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = 3850569621F61FCC00E1452B /* day_of_the_dead_skull.json */; };
-		3850569A21F620D100E1452B /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; };
-		3850569B21F620D100E1452B /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3850568221F611AE00E1452B /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3850569F21F62B2900E1452B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850569E21F62B2900E1452B /* Main.storyboard */; };
-		385056A021F62B2900E1452B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850569E21F62B2900E1452B /* Main.storyboard */; };
 		385056A321F62BC900E1452B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385056A221F62BC900E1452B /* Transactions.storyboard */; };
-		385056A421F62BC900E1452B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385056A221F62BC900E1452B /* Transactions.storyboard */; };
 		3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */; };
-		3852966C21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */; };
 		3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
-		3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */; };
 		3852967221FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
-		3852967321FA513C00960C69 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3852967121FA513C00960C69 /* SignIn.storyboard */; };
-		3862EC38220644E0008C5A2A /* AppSecrets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3862EC37220644E0008C5A2A /* AppSecrets.stencil */; };
 		386469C221FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
-		386469C321FA12790077653E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386469C121FA12790077653E /* OnBoarding.storyboard */; };
 		386469C621FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
-		386469C721FA14450077653E /* PrimaryButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386469C521FA14450077653E /* PrimaryButton.xib */; };
 		386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386469C821FA1FFD0077653E /* OnBoardingViewController.swift */; };
-		386469CA21FA1FFD0077653E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386469C821FA1FFD0077653E /* OnBoardingViewController.swift */; };
 		3864D0C121F64338008C245B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C021F64338008C245B /* TableViewCell.xib */; };
-		3864D0C221F64338008C245B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C021F64338008C245B /* TableViewCell.xib */; };
 		3864D0C421F64342008C245B /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C321F64342008C245B /* EmptyView.xib */; };
-		3864D0C521F64342008C245B /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3864D0C321F64342008C245B /* EmptyView.xib */; };
 		3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C621F643A2008C245B /* TransactionsViewController.swift */; };
-		3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C621F643A2008C245B /* TransactionsViewController.swift */; };
 		3864D0CA21F64436008C245B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C921F64436008C245B /* UI.swift */; };
-		3864D0CB21F64436008C245B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0C921F64436008C245B /* UI.swift */; };
 		3864D0D121F64E62008C245B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0D021F64E62008C245B /* TableViewCell.swift */; };
-		3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864D0D021F64E62008C245B /* TableViewCell.swift */; };
 		38780D3F2203D93500F4E3A0 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */; };
 		38780D402203D93500F4E3A0 /* TwitterCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38780D412203D93500F4E3A0 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */; };
 		38780D422203D93500F4E3A0 /* TwitterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
-		38891F8321F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
-		38C9847321F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
 		38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C9847821F8B261002E5A0E /* Budget.storyboard */; };
-		38C9847A21F8B261002E5A0E /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C9847821F8B261002E5A0E /* Budget.storyboard */; };
 		38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
-		38C9847D21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
 		38D1335821FE916A003A749C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335721FE916A003A749C /* Profile.storyboard */; };
-		38D1335921FE916A003A749C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335721FE916A003A749C /* Profile.storyboard */; };
 		38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335A21FE91D5003A749C /* Statistics.storyboard */; };
-		38D1335C21FE91D5003A749C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335A21FE91D5003A749C /* Statistics.storyboard */; };
 		38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
 		38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
-		38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
-		38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
-		38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2821F51D9F00651235 /* MainProd.storyboard */; };
-		38E0DA2A21F51E7500651235 /* production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA2721F51C2000651235 /* production.plist */; };
 		38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D42201EC8400819609 /* SignInViewController.swift */; };
-		38F6B9D62201EC8400819609 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D42201EC8400819609 /* SignInViewController.swift */; };
 		38F6B9D82201ED4700819609 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D72201ED4700819609 /* SignInViewModel.swift */; };
-		38F6B9D92201ED4700819609 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D72201ED4700819609 /* SignInViewModel.swift */; };
 		38F6B9DB2201FFBD00819609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */; };
-		38F6B9DC2201FFBD00819609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */; };
 		38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -103,17 +64,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3850569C21F620D100E1452B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3850569B21F620D100E1452B /* Lottie.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -123,7 +73,6 @@
 		3804B6ED22024BD300C9C808 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
 		3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		381E13522205F9B200828CC7 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
-		382994CD22064D2E00D089FE /* AppSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecrets.swift; sourceTree = "<group>"; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -137,7 +86,8 @@
 		3852966A21FA4B6000960C69 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		3852966D21FA503D00960C69 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		3852967121FA513C00960C69 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
-		3862EC37220644E0008C5A2A /* AppSecrets.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppSecrets.stencil; sourceTree = "<group>"; };
+		385762C72207E7880055AF6B /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		385762C82207E7B60055AF6B /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		386469C121FA12790077653E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		386469C521FA14450077653E /* PrimaryButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryButton.xib; sourceTree = "<group>"; };
 		386469C821FA1FFD0077653E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -159,8 +109,6 @@
 		38E0DA0821F5121C00651235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E0DA1221F5121D00651235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E0DA1421F5121D00651235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38E0DA2621F51C2000651235 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38E0DA2721F51C2000651235 /* production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = production.plist; path = "/Users/alfredo/Developer/IOS/Personal Finance/production.plist"; sourceTree = "<absolute>"; };
 		38E0DA2821F51D9F00651235 /* MainProd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProd.storyboard; sourceTree = "<group>"; };
 		38F6B9D42201EC8400819609 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		38F6B9D72201ED4700819609 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
@@ -182,15 +130,6 @@
 				3850568421F611B400E1452B /* Lottie.framework in Frameworks */,
 				01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */,
 				38780D412203D93500F4E3A0 /* TwitterKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38E0DA1E21F51C2000651235 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3850569A21F620D100E1452B /* Lottie.framework in Frameworks */,
-				0A3B3B2498A3969E34C4879B /* Pods_Production.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +189,16 @@
 			path = SignIn;
 			sourceTree = "<group>";
 		};
+		385762C62207E7730055AF6B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				385762C72207E7880055AF6B /* Release.xcconfig */,
+				381E13522205F9B200828CC7 /* Development.xcconfig */,
+				385762C82207E7B60055AF6B /* Staging.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		386469BF21F9FAD30077653E /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,10 +253,7 @@
 				38E0DA0821F5121C00651235 /* AppDelegate.swift */,
 				38F6B9DA2201FFBC00819609 /* GoogleService-Info.plist */,
 				38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */,
-				38E0DA2721F51C2000651235 /* production.plist */,
 				38E0DA1421F5121D00651235 /* Info.plist */,
-				381E13522205F9B200828CC7 /* Development.xcconfig */,
-				382994CD22064D2E00D089FE /* AppSecrets.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -392,7 +338,6 @@
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
-				3862EC37220644E0008C5A2A /* AppSecrets.stencil */,
 				3850567E21F610D600E1452B /* Cartfile */,
 				38891F8121F528F7003E04C0 /* .gitignore */,
 				38E0DA0721F5121C00651235 /* Personal Finance */,
@@ -406,7 +351,6 @@
 			isa = PBXGroup;
 			children = (
 				38E0DA0521F5121C00651235 /* Personal Finance.app */,
-				38E0DA2621F51C2000651235 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -414,6 +358,7 @@
 		38E0DA0721F5121C00651235 /* Personal Finance */ = {
 			isa = PBXGroup;
 			children = (
+				385762C62207E7730055AF6B /* Config */,
 				38C9847021F8AAB5002E5A0E /* Extensions */,
 				38891F7E21F52764003E04C0 /* Resources */,
 				38891F7D21F52742003E04C0 /* Application */,
@@ -455,7 +400,6 @@
 				3850568621F611B400E1452B /* Embed Frameworks */,
 				3850568721F6123600E1452B /* ShellScript */,
 				0F698D9E1474D324B48D23C7 /* [CP] Embed Pods Frameworks */,
-				381E1355220606DE00828CC7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -464,27 +408,6 @@
 			name = "Personal Finance";
 			productName = "Personal Finance";
 			productReference = 38E0DA0521F5121C00651235 /* Personal Finance.app */;
-			productType = "com.apple.product-type.application";
-		};
-		38E0DA1A21F51C2000651235 /* Production */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38E0DA2321F51C2000651235 /* Build configuration list for PBXNativeTarget "Production" */;
-			buildPhases = (
-				87BE5549CEC1DD760D2D8CFB /* [CP] Check Pods Manifest.lock */,
-				38E0DA1B21F51C2000651235 /* Sources */,
-				38E0DA1E21F51C2000651235 /* Frameworks */,
-				38E0DA1F21F51C2000651235 /* Resources */,
-				3850569C21F620D100E1452B /* Embed Frameworks */,
-				3850569D21F620DD00E1452B /* ShellScript */,
-				EC3525C992C2C367B11C2854 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Production;
-			productName = "Personal Finance";
-			productReference = 38E0DA2621F51C2000651235 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -516,7 +439,6 @@
 			projectRoot = "";
 			targets = (
 				38E0DA0421F5121C00651235 /* Personal Finance */,
-				38E0DA1A21F51C2000651235 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -545,37 +467,8 @@
 				386469C221FA12790077653E /* OnBoarding.storyboard in Resources */,
 				38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */,
 				38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */,
-				3862EC38220644E0008C5A2A /* AppSecrets.stencil in Resources */,
 				385056A321F62BC900E1452B /* Transactions.storyboard in Resources */,
 				386469C621FA14450077653E /* PrimaryButton.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38E0DA1F21F51C2000651235 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3850568021F610D600E1452B /* Cartfile in Resources */,
-				38D1335921FE916A003A749C /* Profile.storyboard in Resources */,
-				3864D0C221F64338008C245B /* TableViewCell.xib in Resources */,
-				38D1335C21FE91D5003A749C /* Statistics.storyboard in Resources */,
-				386469C721FA14450077653E /* PrimaryButton.xib in Resources */,
-				385056A021F62B2900E1452B /* Main.storyboard in Resources */,
-				383E8E9D21FBE6300087F74F /* Add.storyboard in Resources */,
-				3852967321FA513C00960C69 /* SignIn.storyboard in Resources */,
-				385056A421F62BC900E1452B /* Transactions.storyboard in Resources */,
-				3850569221F61EF700E1452B /* Lottie.storyboard in Resources */,
-				38C9847A21F8B261002E5A0E /* Budget.storyboard in Resources */,
-				38891F8321F528F7003E04C0 /* .gitignore in Resources */,
-				3850568E21F61AA700E1452B /* Media.xcassets in Resources */,
-				38F6B9DC2201FFBD00819609 /* GoogleService-Info.plist in Resources */,
-				38E0DA2921F51D9F00651235 /* MainProd.storyboard in Resources */,
-				38E0DA2A21F51E7500651235 /* production.plist in Resources */,
-				3864D0C521F64342008C245B /* EmptyView.xib in Resources */,
-				3850569821F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
-				38E0DA2021F51C2000651235 /* LaunchScreen.storyboard in Resources */,
-				3850568B21F6170100E1452B /* Colors.xcassets in Resources */,
-				386469C321FA12790077653E /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,24 +523,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		381E1355220606DE00828CC7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./Pods/Sourcery/bin/sourcery --sources ./Personal\\ Finance --templates AppSecrets.stencil --output ./Personal\\ Finance/Base/AppSecrets.swift --args chatApiClientSecret=\\\"$CHAT_API_CLIENT_SECRET\\\",analyticsWriteKey=\\\"$ANALYTICS_WRITE_KEY\\\"\n";
-		};
 		3850568721F6123600E1452B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -665,72 +540,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
-		};
-		3850569D21F620DD00E1452B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
-		};
-		87BE5549CEC1DD760D2D8CFB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Production-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC3525C992C2C367B11C2854 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Production/Pods-Production-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Production/Pods-Production-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -750,29 +559,8 @@
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
 				38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */,
 				3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
-				382994CE22064D2E00D089FE /* AppSecrets.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38E0DA1B21F51C2000651235 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3864D0D221F64E62008C245B /* TableViewCell.swift in Sources */,
-				38C9847D21F8B376002E5A0E /* BudgetViewController.swift in Sources */,
-				383E8E9921FBDF800087F74F /* TabBarViewController.swift in Sources */,
-				38E0DA1D21F51C2000651235 /* AppDelegate.swift in Sources */,
-				38F6B9D92201ED4700819609 /* SignInViewModel.swift in Sources */,
-				386469CA21FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
-				3852966C21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
-				3864D0CB21F64436008C245B /* UI.swift in Sources */,
-				38C9847321F8AADB002E5A0E /* Shadow.swift in Sources */,
-				38F6B9D62201EC8400819609 /* SignInViewController.swift in Sources */,
-				3852966F21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
-				3850569521F61F1300E1452B /* LottieViewController.swift in Sources */,
-				3864D0C821F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +578,91 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		385762C92207E85F0055AF6B /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385762C82207E7B60055AF6B /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		385762CA2207E85F0055AF6B /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385762C82207E7B60055AF6B /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Personal Finance/Base/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "website.alfredo.Personal-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
 		38E0DA1521F5121D00651235 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 381E13522205F9B200828CC7 /* Development.xcconfig */;
@@ -854,7 +727,7 @@
 		};
 		38E0DA1621F5121D00651235 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 381E13522205F9B200828CC7 /* Development.xcconfig */;
+			baseConfigurationReference = 385762C72207E7880055AF6B /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -910,7 +783,7 @@
 		};
 		38E0DA1821F5121D00651235 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC4CB7B639198D43C80B20C7 /* Pods-Personal Finance.debug.xcconfig */;
+			baseConfigurationReference = 381E13522205F9B200828CC7 /* Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -933,7 +806,7 @@
 		};
 		38E0DA1921F5121D00651235 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E532BC7A61D8036F466BAD3F /* Pods-Personal Finance.release.xcconfig */;
+			baseConfigurationReference = 385762C72207E7880055AF6B /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -954,52 +827,6 @@
 			};
 			name = Release;
 		};
-		38E0DA2421F51C2000651235 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C686C9B84B314F99B7B19350 /* Pods-Production.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5E99QS6RV6;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/production.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "website.alfredo.Personal-Finance";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		38E0DA2521F51C2000651235 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E39583890FAB3609AE7A7419 /* Pods-Production.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5E99QS6RV6;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/production.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "website.alfredo.Personal-Finance";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1007,6 +834,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38E0DA1521F5121D00651235 /* Debug */,
+				385762C92207E85F0055AF6B /* Staging */,
 				38E0DA1621F5121D00651235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1016,16 +844,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38E0DA1821F5121D00651235 /* Debug */,
+				385762CA2207E85F0055AF6B /* Staging */,
 				38E0DA1921F5121D00651235 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38E0DA2321F51C2000651235 /* Build configuration list for PBXNativeTarget "Production" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38E0DA2421F51C2000651235 /* Debug */,
-				38E0DA2521F51C2000651235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

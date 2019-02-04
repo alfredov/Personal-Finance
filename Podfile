@@ -6,7 +6,6 @@ target 'Personal Finance' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-  pod 'Sourcery'
 end
 
 target 'Production' do
