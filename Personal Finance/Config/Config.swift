@@ -8,8 +8,21 @@
 
 import Foundation
 
+enum Keys: String {
+    case TwitterConsumerKey
+    case TwitterConsumerSecret
+}
+
 struct Config {
-    static func infoForKey(_ key: String) -> String? {
+    fileprivate(set) lazy var TwitterConsumerkey: String? = {
+        return infoForKey(Keys.TwitterConsumerKey.rawValue)
+    }()
+    
+    fileprivate(set) lazy var TwitterConsumerSecret: String? = {
+       return infoForKey(Keys.TwitterConsumerSecret.rawValue)
+    }()
+    
+    private func infoForKey(_ key: String) -> String? {
         return (Bundle.main.infoDictionary?[key] as? String)?.replacingOccurrences(of: "\\", with: "")
     }
 }
