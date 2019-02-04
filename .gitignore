@@ -83,3 +83,7 @@ iOSInjectionProject/
 
 # Google service client config
 GoogleService-Info.plist
+
+Release.xcconfig
+Development.xcconfig
+Staging.xcconfig

@@ -194,9 +194,6 @@
 		385762C62207E7730055AF6B /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				385762C72207E7880055AF6B /* Release.xcconfig */,
-				381E13522205F9B200828CC7 /* Development.xcconfig */,
-				385762C82207E7B60055AF6B /* Staging.xcconfig */,
 				38ED05CA2207F15A0005487C /* Config.swift */,
 			);
 			path = Config;
@@ -341,6 +338,9 @@
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
+				385762C72207E7880055AF6B /* Release.xcconfig */,
+				381E13522205F9B200828CC7 /* Development.xcconfig */,
+				385762C82207E7B60055AF6B /* Staging.xcconfig */,
 				3850567E21F610D600E1452B /* Cartfile */,
 				38891F8121F528F7003E04C0 /* .gitignore */,
 				38E0DA0721F5121C00651235 /* Personal Finance */,
