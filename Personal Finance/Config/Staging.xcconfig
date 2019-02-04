@@ -14,3 +14,5 @@
 IS_APP_NAME = Finance Staging
 IS_APP_VERSION = 0.1
 IS_APP_BUNDLE_ID = website.alfredo.Personal-FinanceStaging
+TWITTER_CONSUMER_KEY = staging-key
+TWITTER_CONSUMER_SECRET = staging-secret

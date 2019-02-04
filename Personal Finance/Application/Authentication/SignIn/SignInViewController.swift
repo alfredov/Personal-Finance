@@ -13,6 +13,7 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
 
     override func viewDidLoad() {
+        print(Config.infoForKey("TwitterConsumerKey") ?? "##--> None <--##")
         super.viewDidLoad()
     }
     

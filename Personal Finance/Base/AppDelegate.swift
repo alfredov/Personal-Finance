@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

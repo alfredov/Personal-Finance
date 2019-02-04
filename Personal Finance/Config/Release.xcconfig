@@ -14,3 +14,5 @@
 IS_APP_NAME = Personal Finance
 IS_APP_VERSION = 0.1
 IS_APP_BUNDLE_ID = website.alfredo.Personal-FinanceRelease
+TWITTER_CONSUMER_KEY = release-key
+TWITTER_CONSUMER_SECRET = release-secret
