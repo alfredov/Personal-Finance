@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */; };
-		381E13532205F9B200828CC7 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 381E13522205F9B200828CC7 /* Development.xcconfig */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
 		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
@@ -460,7 +459,6 @@
 				38D1335821FE916A003A749C /* Profile.storyboard in Resources */,
 				38F6B9DB2201FFBD00819609 /* GoogleService-Info.plist in Resources */,
 				3864D0C421F64342008C245B /* EmptyView.xib in Resources */,
-				381E13532205F9B200828CC7 /* Development.xcconfig in Resources */,
 				3850569721F61FCC00E1452B /* day_of_the_dead_skull.json in Resources */,
 				3850568D21F61AA700E1452B /* Media.xcassets in Resources */,
 				38891F8221F528F7003E04C0 /* .gitignore in Resources */,
