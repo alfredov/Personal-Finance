@@ -30,7 +30,7 @@ class SignInViewModel: NSObject {
         guard let password = password, validate(text: password, regex: passwordPattern) else {
             return
         }
-
+        
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if let error = error {
                 handler?(false, error)

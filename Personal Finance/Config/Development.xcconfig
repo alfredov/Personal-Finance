@@ -11,7 +11,7 @@
 #include "Pods/Target Support Files/Pods-Personal Finance/Pods-Personal Finance.debug.xcconfig"
 
 IS_APP_NAME = Finance Development
-IS_APP_VERSION = 0.1
+IS_APP_VERSION = 1
 IS_APP_BUNDLE_ID = website.alfredo.Personal-Finance
 TWITTER_CONSUMER_KEY = dev-key
 TWITTER_CONSUMER_SECRET = dev-secret
