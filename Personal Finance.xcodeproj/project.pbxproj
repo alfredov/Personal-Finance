@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */; };
+		38151FAA2209D4EB00DF50EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38151FA92209D4EB00DF50EF /* README.md */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
 		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
@@ -72,6 +73,7 @@
 		3804B6EC22024BD300C9C808 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
 		3804B6ED22024BD300C9C808 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
 		3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		38151FA92209D4EB00DF50EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		381E13522205F9B200828CC7 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
@@ -337,6 +339,7 @@
 		38E0D9FC21F5121C00651235 = {
 			isa = PBXGroup;
 			children = (
+				38151FA92209D4EB00DF50EF /* README.md */,
 				385762C72207E7880055AF6B /* Release.xcconfig */,
 				381E13522205F9B200828CC7 /* Development.xcconfig */,
 				385762C82207E7B60055AF6B /* Staging.xcconfig */,
@@ -453,6 +456,7 @@
 				3852967221FA513C00960C69 /* SignIn.storyboard in Resources */,
 				3850569121F61EF700E1452B /* Lottie.storyboard in Resources */,
 				3850567F21F610D600E1452B /* Cartfile in Resources */,
+				38151FAA2209D4EB00DF50EF /* README.md in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
 				3864D0C121F64338008C245B /* TableViewCell.xib in Resources */,
 				383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */,
