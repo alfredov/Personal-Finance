@@ -8,11 +8,3 @@ target 'Personal Finance' do
   pod 'Firebase/Auth'
 end
 
-target 'Production' do
-  use_frameworks!
-
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-
-end
-
