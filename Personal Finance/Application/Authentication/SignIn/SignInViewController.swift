@@ -47,6 +47,20 @@ class SignInViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func signInWithFacebook(_ sender: UIButton) {
+        SignInViewModel.authWithFacebook(viewController: self) {[weak self] (success, error) in
+            if let error = error {
+                let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+                alertController.addAction(okAction)
+                self?.present(alertController, animated: true, completion: nil)
+            }
+            if success {
+                self?.performSegue(withIdentifier: "goToMain", sender: self)
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation

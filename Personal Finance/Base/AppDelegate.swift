@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import TwitterKit
+import FBSDKLoginKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         var keys = Config()
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
         TWTRTwitter.sharedInstance().start(
             withConsumerKey: keys.TwitterConsumerkey ?? "",
             consumerSecret: keys.TwitterConsumerSecret ?? ""
@@ -67,8 +69,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if TWTRTwitter.sharedInstance().application(app, open: url, options: options) {
             return true
         }
-        
-        return true
+        return ApplicationDelegate.shared.application(app, open: url, options: [:])
     }
+    
+//    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+////        let handled = ApplicationDelegate.shared.application(app, open: url, options: [:])
+//        let handled = ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+//
+//        return handled
+//    }
+    
 }
 

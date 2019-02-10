@@ -9,6 +9,7 @@
 import Foundation
 import FirebaseAuth
 import TwitterKit
+import FBSDKLoginKit
 
 typealias SignInHandler = ((_ success: Bool, _ error: Error?) -> Void)
 
@@ -62,5 +63,28 @@ class SignInViewModel: NSObject {
                 handler?(true, nil)
             })
         }
+    }
+    
+    static func authWithFacebook(viewController: UIViewController, handler: SignInHandler?) {
+        let loginManager = LoginManager()
+        let permissions = ["email"]
+        let handler = {
+            (result: LoginManagerLoginResult!, error: Error?) in
+            if let error = error {
+                print("Error: \(error.localizedDescription)")
+                handler?(false, error)
+            } else if result.isCancelled {
+                print("User tapped on Cancel Button")
+                handler?(false, nil)
+            } else {
+                print("Athenticate successfully")
+                guard let token = AccessToken.current?.tokenString else { return }
+                let credentials = FacebookAuthProvider.credential(withAccessToken: token)
+                Auth.auth().signInAndRetrieveData(with: credentials, completion: { (authResult, error) in
+                    handler?(true, nil)
+                })
+            }
+        }
+        loginManager.logIn(readPermissions: permissions, from: viewController, handler: handler)
     }
 }

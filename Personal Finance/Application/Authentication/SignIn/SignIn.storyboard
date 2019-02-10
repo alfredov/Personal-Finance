@@ -58,6 +58,9 @@
                                                 <color key="value" name="GreenShadow"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="signInWithFacebook:" destination="Cfk-bs-b12" eventType="touchUpInside" id="r56-OU-9y9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rK7-s1-8S8">
                                         <rect key="frame" x="90" y="0.0" width="80" height="50"/>

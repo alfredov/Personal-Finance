@@ -35,12 +35,6 @@
 		38780D402203D93500F4E3A0 /* TwitterCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3B2203D91C00F4E3A0 /* TwitterCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38780D412203D93500F4E3A0 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */; };
 		38780D422203D93500F4E3A0 /* TwitterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38780D3C2203D91D00F4E3A0 /* TwitterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38858D24220E5DDD00F3B54C /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38858D1E220E5DC800F3B54C /* FacebookShare.framework */; };
-		38858D25220E5DDD00F3B54C /* FacebookShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38858D1E220E5DC800F3B54C /* FacebookShare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38858D26220E5DDD00F3B54C /* FBSDKPlacesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38858D1F220E5DC800F3B54C /* FBSDKPlacesKit.framework */; };
-		38858D27220E5DDD00F3B54C /* FBSDKPlacesKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38858D1F220E5DC800F3B54C /* FBSDKPlacesKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38858D28220E5DDD00F3B54C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38858D20220E5DC800F3B54C /* FBSDKShareKit.framework */; };
-		38858D29220E5DDD00F3B54C /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38858D20220E5DC800F3B54C /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38858D2A220E5DDD00F3B54C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */; };
 		38858D2B220E5DDD00F3B54C /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38858D2C220E5DDD00F3B54C /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804B6EC22024BD300C9C808 /* FacebookCore.framework */; };
@@ -72,10 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				38858D25220E5DDD00F3B54C /* FacebookShare.framework in Embed Frameworks */,
-				38858D27220E5DDD00F3B54C /* FBSDKPlacesKit.framework in Embed Frameworks */,
 				38858D31220E5DDD00F3B54C /* FBSDKLoginKit.framework in Embed Frameworks */,
-				38858D29220E5DDD00F3B54C /* FBSDKShareKit.framework in Embed Frameworks */,
 				3850568521F611B400E1452B /* Lottie.framework in Embed Frameworks */,
 				38858D2B220E5DDD00F3B54C /* FBSDKCoreKit.framework in Embed Frameworks */,
 				38858D2D220E5DDD00F3B54C /* FacebookCore.framework in Embed Frameworks */,
@@ -153,13 +144,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38858D24220E5DDD00F3B54C /* FacebookShare.framework in Frameworks */,
-				38858D26220E5DDD00F3B54C /* FBSDKPlacesKit.framework in Frameworks */,
 				38858D30220E5DDD00F3B54C /* FBSDKLoginKit.framework in Frameworks */,
 				38858D2C220E5DDD00F3B54C /* FacebookCore.framework in Frameworks */,
 				38780D3F2203D93500F4E3A0 /* TwitterCore.framework in Frameworks */,
 				38858D2A220E5DDD00F3B54C /* FBSDKCoreKit.framework in Frameworks */,
-				38858D28220E5DDD00F3B54C /* FBSDKShareKit.framework in Frameworks */,
 				3850568421F611B400E1452B /* Lottie.framework in Frameworks */,
 				01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */,
 				38858D2E220E5DDD00F3B54C /* FacebookLogin.framework in Frameworks */,
