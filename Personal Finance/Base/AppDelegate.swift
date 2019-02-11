@@ -66,18 +66,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        if TWTRTwitter.sharedInstance().application(app, open: url, options: options) {
-            return true
-        }
-        return ApplicationDelegate.shared.application(app, open: url, options: [:])
+        return TWTRTwitter.sharedInstance().application(app, open: url, options: options)
+//        if TWTRTwitter.sharedInstance().application(app, open: url, options: options) {
+//            return true
+//        }
+//        return ApplicationDelegate.shared.application(app, open: url, options: [:])
     }
     
-//    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-////        let handled = ApplicationDelegate.shared.application(app, open: url, options: [:])
-//        let handled = ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
-//
-//        return handled
-//    }
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+//        let handled = ApplicationDelegate.shared.application(app, open: url, options: [:])
+        let handled = ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+
+        return handled
+    }
     
 }
 

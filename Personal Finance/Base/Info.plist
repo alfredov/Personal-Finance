@@ -25,8 +25,8 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
+                <string>fb$(FACEBOOK_CLIENT_ID)</string>
                 <string>twitterkit-$(TWITTER_CONSUMER_KEY)</string>
-                <string>$(FACEBOOK_CLIENT_ID)</string>
             </array>
         </dict>
     </array>
@@ -64,5 +64,9 @@
 	<string>$(TWITTER_CONSUMER_KEY)</string>
 	<key>TwitterConsumerSecret</key>
 	<string>$(TWITTER_CONSUMER_SECRET)</string>
+    <key>FacebookAppID</key>
+    <string>$(FACEBOOK_CLIENT_ID)</string>
+    <key>FacebookDisplayName</key>
+    <string>PlatziFinanzas</string>
 </dict>
 </plist>
