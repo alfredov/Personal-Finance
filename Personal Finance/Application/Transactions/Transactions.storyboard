@@ -14,7 +14,7 @@
         <!--Transactions-->
         <scene sceneID="HMG-Rv-U1h">
             <objects>
-                <viewController id="GXD-EI-6iz" customClass="TransactionsViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Transactions" id="GXD-EI-6iz" customClass="TransactionsViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VbP-JA-Hwq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

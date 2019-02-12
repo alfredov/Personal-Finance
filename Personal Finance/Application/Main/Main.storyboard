@@ -13,7 +13,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="4A0-bt-yPy">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="AW2-FJ-I5N" customClass="TabBarViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Main" automaticallyAdjustsScrollViewInsets="NO" id="AW2-FJ-I5N" customClass="TabBarViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DtE-QS-ale">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>

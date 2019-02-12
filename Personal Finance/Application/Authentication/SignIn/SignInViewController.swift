@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class SignInViewController: UIViewController {
+class SignInViewController: UIViewController, GIDSignInUIDelegate {
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        GIDSignIn.sharedInstance()?.uiDelegate = self
     }
     
     @IBAction func signIn(_ sender: UIButton) {
@@ -60,6 +64,10 @@ class SignInViewController: UIViewController {
                 self?.performSegue(withIdentifier: "goToMain", sender: self)
             }
         }
+    }
+    
+    @IBAction func signInWithGooGle(_ sender: UIButton) {
+        GIDSignIn.sharedInstance()?.signIn()
     }
 
     /*

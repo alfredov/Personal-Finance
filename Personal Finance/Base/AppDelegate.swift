@@ -13,8 +13,8 @@ import FBSDKLoginKit
 import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+    
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -26,7 +26,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         FirebaseApp.configure()
         initializeController()
+        
+        GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
+        GIDSignIn.sharedInstance()?.delegate = self
         return true
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let error = error {
+            print("An error ocurred during Google Authentication", error.localizedDescription)
+            return
+        }
+        
+        guard let authentication = user.authentication else { return }
+        let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken, accessToken: authentication.accessToken)
+        Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
+            if let error = error {
+                print("Error trying Signin", error.localizedDescription)
+                return
+            }
+            let pageName = "Main"
+            if authResult != nil {
+                let mainStoryBoard: UIStoryboard = UIStoryboard(name: pageName, bundle: Bundle.main)
+                let protectedPage = mainStoryBoard.instantiateViewController(withIdentifier: pageName)
+                self.window?.rootViewController = protectedPage
+            }
+        }
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
+        // Perform any operation when the user disconnects from app here.
     }
     
     func initializeController() {
@@ -67,18 +96,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        return TWTRTwitter.sharedInstance().application(app, open: url, options: options)
-//        if TWTRTwitter.sharedInstance().application(app, open: url, options: options) {
-//            return true
-//        }
-//        return ApplicationDelegate.shared.application(app, open: url, options: [:])
+        if TWTRTwitter.sharedInstance().application(app, open: url, options: options) {
+            return true
+        }
+        
+        let googleAuthentication = GIDSignIn.sharedInstance().handle(url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: [:])
+        return googleAuthentication
     }
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-//        let handled = ApplicationDelegate.shared.application(app, open: url, options: [:])
-        let handled = ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
-
-        return handled
+        let facebookAuthentication = ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+        if facebookAuthentication {
+            return true
+        }
+        
+        let googleAuthentication = GIDSignIn.sharedInstance().handle(url, sourceApplication: sourceApplication, annotation: annotation)
+        return googleAuthentication
     }
     
 }
