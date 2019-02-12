@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import TwitterKit
 import FBSDKLoginKit
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
