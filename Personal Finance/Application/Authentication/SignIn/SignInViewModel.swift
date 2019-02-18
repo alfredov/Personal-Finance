@@ -10,12 +10,14 @@ import Foundation
 import FirebaseAuth
 import TwitterKit
 import FBSDKLoginKit
+import AccountKit
 
 typealias SignInHandler = ((_ success: Bool, _ error: Error?) -> Void)
 
 class SignInViewModel: NSObject {
     static let emailPattern = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
     static let passwordPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{8,}$"
+    private var handler: SignInHandler?
     
     static private func validate(text: String, regex: String) -> Bool {
         let range = NSRange(location: 0, length: text.count)
@@ -86,5 +88,33 @@ class SignInViewModel: NSObject {
             }
         }
         loginManager.logIn(readPermissions: permissions, from: viewController, handler: handler)
+    }
+    
+    func authWithAccountKit(sender: UIViewController, handler: SignInHandler?) {
+        self.handler = handler
+        let viewController = AKFAccountKit(responseType: .accessToken).viewControllerForPhoneLogin() as AKFViewController
+        viewController.delegate = self
+        
+        guard let normalViewController = viewController as? UIViewController else {
+            return
+        }
+        
+        sender.present(normalViewController, animated: true, completion: nil)
+    }
+}
+
+extension SignInViewModel: AKFViewControllerDelegate {
+    func viewController(_ viewController: (UIViewController & AKFViewController)!, didCompleteLoginWith accessToken: AKFAccessToken!, state: String!) {
+        let token = accessToken.tokenString
+        let accountKit = AKFAccountKit(responseType: .accessToken)
+        accountKit.requestAccount {[weak self] (account, error) in
+            if let error = error {
+                self?.handler?(false, error)
+                return
+            }
+            
+            guard let phoneNumber = account?.phoneNumber?.phoneNumber else { return }
+            self?.handler?(true, nil)
+        }
     }
 }

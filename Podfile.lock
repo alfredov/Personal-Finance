@@ -1,4 +1,5 @@
 PODS:
+  - AccountKit (4.35.0)
   - Firebase/Auth (5.16.0):
     - Firebase/CoreOnly
     - FirebaseAuth (= 5.3.0)
@@ -72,12 +73,14 @@ PODS:
   - nanopb/encode (0.3.901)
 
 DEPENDENCIES:
+  - AccountKit
   - Firebase/Auth
   - Firebase/Core
   - GoogleSignIn
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AccountKit
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -92,6 +95,7 @@ SPEC REPOS:
     - nanopb
 
 SPEC CHECKSUMS:
+  AccountKit: 870ccaf5d33facda9408783e28fbe68c5211e069
   Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
   FirebaseAnalytics: d35d47c03c50c73c14a7fd31463c5775843e78a9
   FirebaseAuth: c9b3ff063c223d2841d97240af547ce511bce19a
@@ -105,6 +109,6 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: 36117ea0e22785ca25a7b8edac7f619563312232
+PODFILE CHECKSUM: 397460112466573377bcc8252297a324e21e2730
 
 COCOAPODS: 1.5.3

@@ -13,11 +13,18 @@ class SignInViewController: UIViewController, GIDSignInUIDelegate {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    private var viewModel = SignInViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         GIDSignIn.sharedInstance()?.uiDelegate = self
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        viewModel.authWithAccountKit(sender: self) { (success, error) in
+            
+        }
     }
     
     @IBAction func signIn(_ sender: UIButton) {

@@ -25,6 +25,7 @@
 			<array>
                 <string>$(GOOGLE_CLIENT_ID)</string>
 				<string>fb$(FACEBOOK_CLIENT_ID)</string>
+                <string>ak$(FACEBOOK_CLIENT_ID)</string>
 				<string>twitterkit-$(TWITTER_CONSUMER_KEY)</string>
 			</array>
 		</dict>
@@ -33,6 +34,8 @@
 	<string>$(IS_APP_VERSION)</string>
 	<key>FacebookAppID</key>
 	<string>$(FACEBOOK_CLIENT_ID)</string>
+    <key>AccountKitClientToken</key>
+    <string>$(FACEBOOK_ACCOUNT_KIT_TOKEN)</string>
 	<key>FacebookDisplayName</key>
 	<string>PlatziFinanzas</string>
 	<key>LSApplicationQueriesSchemes</key>
