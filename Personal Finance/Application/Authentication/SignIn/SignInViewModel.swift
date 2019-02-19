@@ -106,15 +106,30 @@ class SignInViewModel: NSObject {
 extension SignInViewModel: AKFViewControllerDelegate {
     func viewController(_ viewController: (UIViewController & AKFViewController)!, didCompleteLoginWith accessToken: AKFAccessToken!, state: String!) {
         let token = accessToken.tokenString
-        let accountKit = AKFAccountKit(responseType: .accessToken)
-        accountKit.requestAccount {[weak self] (account, error) in
+        let baseUrl = URL(string: "https://us-central1-platzi-finanza.cloudfunctions.net/")
+        guard let url = URL(string: "accountkit?access_token=\(token)", relativeTo: baseUrl) else { return }
+        
+        let task = URLSession.shared.dataTask(with: url) {[weak self] (data, _, error) in
             if let error = error {
                 self?.handler?(false, error)
                 return
             }
             
-            guard let phoneNumber = account?.phoneNumber?.phoneNumber else { return }
-            self?.handler?(true, nil)
+            guard let data = data else { return }
+            guard let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else { return }
+            guard let token = json?["token"] as? String else { return }
+            
+            Auth.auth().signIn(withCustomToken: token, completion: {[weak self] (result, error) in
+                if let error = error {
+                    self?.handler?(false, error)
+                    return
+                }
+                
+                self?.handler?(true, nil)
+            })
+            
         }
+        
+        task.resume()
     }
 }
