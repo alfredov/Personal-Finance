@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01213BC716FF688A05CC8308 /* Pods_Personal_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB5EE4B4782AB6521DF0F24 /* Pods_Personal_Finance.framework */; };
 		38151FAA2209D4EB00DF50EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38151FA92209D4EB00DF50EF /* README.md */; };
+		3821190F221CE06C006AE046 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821190E221CE06C006AE046 /* ProfileViewController.swift */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
 		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
@@ -87,6 +88,7 @@
 		3804B6F122024C2900C9C808 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		38151FA92209D4EB00DF50EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		381E13522205F9B200828CC7 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		3821190E221CE06C006AE046 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				38D1335721FE916A003A749C /* Profile.storyboard */,
+				3821190E221CE06C006AE046 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -614,6 +617,7 @@
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
 				38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */,
 				3852966E21FA503D00960C69 /* OnBoardingContainerViewController.swift in Sources */,
+				3821190F221CE06C006AE046 /* ProfileViewController.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
 			);

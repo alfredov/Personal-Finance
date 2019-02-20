@@ -67,6 +67,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             name = "SignIn"
         }
         
+        let session = Auth.auth().currentUser != nil
+        
+        if session {
+            name = "Main"
+        }
+        
         let viewController = UIStoryboard(name: name, bundle: Bundle.main).instantiateInitialViewController()
         
         window?.rootViewController = viewController

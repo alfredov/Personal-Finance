@@ -14,7 +14,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="SZz-On-4bA">
             <objects>
-                <viewController id="Cfk-bs-b12" customClass="SignInViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignIn" id="Cfk-bs-b12" customClass="SignInViewController" customModule="Personal_Finance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gsp-ci-bzl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
