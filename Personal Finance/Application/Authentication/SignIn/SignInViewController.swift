@@ -20,10 +20,20 @@ class SignInViewController: UIViewController, GIDSignInUIDelegate {
         
         GIDSignIn.sharedInstance()?.uiDelegate = self
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        viewModel.authWithAccountKit(sender: self) { (success, error) in
+        
+    @IBAction func signInWithSMS(_ sender: UIButton) {
+        viewModel.authWithAccountKit(sender: self) {[weak self] (success, error) in
+            if let error = error {
+                let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+                let acceptAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+                alertController.addAction(acceptAction)
+                self?.present(alertController, animated: true, completion: nil)
+                return
+            }
             
+            if success {
+                self?.performSegue(withIdentifier: "goToMain", sender: self)
+            }
         }
     }
     
