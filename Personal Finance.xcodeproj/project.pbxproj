@@ -44,6 +44,13 @@
 		38858D2F220E5DDD00F3B54C /* FacebookLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804B6ED22024BD300C9C808 /* FacebookLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38858D30220E5DDD00F3B54C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804B6EB22024BD300C9C808 /* FBSDKLoginKit.framework */; };
 		38858D31220E5DDD00F3B54C /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804B6EB22024BD300C9C808 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3886DB52221D9939001AAA61 /* FinanceCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3886DB50221D9939001AAA61 /* FinanceCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3886DB55221D9939001AAA61 /* FinanceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3886DB4E221D9939001AAA61 /* FinanceCore.framework */; };
+		3886DB56221D9939001AAA61 /* FinanceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3886DB4E221D9939001AAA61 /* FinanceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3886DB5F221D9995001AAA61 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886DB5B221D9995001AAA61 /* Account.swift */; };
+		3886DB60221D9995001AAA61 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886DB5C221D9995001AAA61 /* Transaction.swift */; };
+		3886DB61221D9995001AAA61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886DB5D221D9995001AAA61 /* User.swift */; };
+		3886DB62221D9995001AAA61 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886DB5E221D9995001AAA61 /* Budget.swift */; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
@@ -60,6 +67,16 @@
 		38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FDB44F21F5593900AEF887 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3886DB53221D9939001AAA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E0D9FD21F5121C00651235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3886DB4D221D9939001AAA61;
+			remoteInfo = FinanceCore;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		3850568621F611B400E1452B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -73,6 +90,7 @@
 				38858D2D220E5DDD00F3B54C /* FacebookCore.framework in Embed Frameworks */,
 				38780D402203D93500F4E3A0 /* TwitterCore.framework in Embed Frameworks */,
 				38858D2F220E5DDD00F3B54C /* FacebookLogin.framework in Embed Frameworks */,
+				3886DB56221D9939001AAA61 /* FinanceCore.framework in Embed Frameworks */,
 				38780D422203D93500F4E3A0 /* TwitterKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -117,6 +135,13 @@
 		38858D1E220E5DC800F3B54C /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = Carthage/Build/iOS/FacebookShare.framework; sourceTree = "<group>"; };
 		38858D1F220E5DC800F3B54C /* FBSDKPlacesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKPlacesKit.framework; path = Carthage/Build/iOS/FBSDKPlacesKit.framework; sourceTree = "<group>"; };
 		38858D20220E5DC800F3B54C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Carthage/Build/iOS/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		3886DB4E221D9939001AAA61 /* FinanceCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FinanceCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3886DB50221D9939001AAA61 /* FinanceCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinanceCore.h; sourceTree = "<group>"; };
+		3886DB51221D9939001AAA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3886DB5B221D9995001AAA61 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		3886DB5C221D9995001AAA61 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3886DB5D221D9995001AAA61 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3886DB5E221D9995001AAA61 /* Budget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -142,11 +167,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3886DB4B221D9939001AAA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38E0DA0221F5121C00651235 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38858D30220E5DDD00F3B54C /* FBSDKLoginKit.framework in Frameworks */,
+				3886DB55221D9939001AAA61 /* FinanceCore.framework in Frameworks */,
 				38858D2C220E5DDD00F3B54C /* FacebookCore.framework in Frameworks */,
 				38780D3F2203D93500F4E3A0 /* TwitterCore.framework in Frameworks */,
 				38858D2A220E5DDD00F3B54C /* FBSDKCoreKit.framework in Frameworks */,
@@ -272,6 +305,19 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
+		3886DB4F221D9939001AAA61 /* FinanceCore */ = {
+			isa = PBXGroup;
+			children = (
+				3886DB5B221D9995001AAA61 /* Account.swift */,
+				3886DB5E221D9995001AAA61 /* Budget.swift */,
+				3886DB5C221D9995001AAA61 /* Transaction.swift */,
+				3886DB5D221D9995001AAA61 /* User.swift */,
+				3886DB50221D9939001AAA61 /* FinanceCore.h */,
+				3886DB51221D9939001AAA61 /* Info.plist */,
+			);
+			path = FinanceCore;
+			sourceTree = "<group>";
+		};
 		38891F7C21F5271A003E04C0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +417,7 @@
 				3850567E21F610D600E1452B /* Cartfile */,
 				38891F8121F528F7003E04C0 /* .gitignore */,
 				38E0DA0721F5121C00651235 /* Personal Finance */,
+				3886DB4F221D9939001AAA61 /* FinanceCore */,
 				38E0DA0621F5121C00651235 /* Products */,
 				3850568121F611AD00E1452B /* Frameworks */,
 				BF7FEE0D50B908B17CD4A025 /* Pods */,
@@ -381,6 +428,7 @@
 			isa = PBXGroup;
 			children = (
 				38E0DA0521F5121C00651235 /* Personal Finance.app */,
+				3886DB4E221D9939001AAA61 /* FinanceCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,7 +466,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3886DB49221D9939001AAA61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3886DB52221D9939001AAA61 /* FinanceCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		3886DB4D221D9939001AAA61 /* FinanceCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3886DB5A221D9939001AAA61 /* Build configuration list for PBXNativeTarget "FinanceCore" */;
+			buildPhases = (
+				3886DB49221D9939001AAA61 /* Headers */,
+				3886DB4A221D9939001AAA61 /* Sources */,
+				3886DB4B221D9939001AAA61 /* Frameworks */,
+				3886DB4C221D9939001AAA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceCore;
+			productName = FinanceCore;
+			productReference = 3886DB4E221D9939001AAA61 /* FinanceCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		38E0DA0421F5121C00651235 /* Personal Finance */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38E0DA1721F5121D00651235 /* Build configuration list for PBXNativeTarget "Personal Finance" */;
@@ -435,6 +512,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3886DB54221D9939001AAA61 /* PBXTargetDependency */,
 			);
 			name = "Personal Finance";
 			productName = "Personal Finance";
@@ -451,6 +529,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Alfredo Villagomez";
 				TargetAttributes = {
+					3886DB4D221D9939001AAA61 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
 					38E0DA0421F5121C00651235 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -470,11 +552,19 @@
 			projectRoot = "";
 			targets = (
 				38E0DA0421F5121C00651235 /* Personal Finance */,
+				3886DB4D221D9939001AAA61 /* FinanceCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3886DB4C221D9939001AAA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38E0DA0321F5121C00651235 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -601,6 +691,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3886DB4A221D9939001AAA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3886DB60221D9995001AAA61 /* Transaction.swift in Sources */,
+				3886DB5F221D9995001AAA61 /* Account.swift in Sources */,
+				3886DB62221D9995001AAA61 /* Budget.swift in Sources */,
+				3886DB61221D9995001AAA61 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38E0DA0121F5121C00651235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,6 +725,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3886DB54221D9939001AAA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3886DB4D221D9939001AAA61 /* FinanceCore */;
+			targetProxy = 3886DB53221D9939001AAA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */ = {
@@ -703,6 +812,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385762C82207E7B60055AF6B /* Staging.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E99QS6RV6;
@@ -711,6 +821,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Personal Finance/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -721,6 +832,98 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Staging;
+		};
+		3886DB57221D9939001AAA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FinanceCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = website.alfredo.FinanceCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3886DB58221D9939001AAA61 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FinanceCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = website.alfredo.FinanceCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Staging;
+		};
+		3886DB59221D9939001AAA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5E99QS6RV6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FinanceCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = website.alfredo.FinanceCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		38E0DA1521F5121D00651235 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -844,6 +1047,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 381E13522205F9B200828CC7 /* Development.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E99QS6RV6;
@@ -852,6 +1056,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Personal Finance/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -867,6 +1072,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385762C72207E7880055AF6B /* Release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E99QS6RV6;
@@ -875,6 +1081,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Personal Finance/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -889,6 +1096,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3886DB5A221D9939001AAA61 /* Build configuration list for PBXNativeTarget "FinanceCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3886DB57221D9939001AAA61 /* Debug */,
+				3886DB58221D9939001AAA61 /* Staging */,
+				3886DB59221D9939001AAA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38E0DA0021F5121C00651235 /* Build configuration list for PBXProject "Personal Finance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
