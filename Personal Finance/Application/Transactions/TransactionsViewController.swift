@@ -11,6 +11,7 @@ import UIKit
 class TransactionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var components = UI()
+    private var viewModel = TransactionsViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,7 @@ class TransactionsViewController: UIViewController {
 
 extension TransactionsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = 8
+        let count = viewModel.numberOfItems
         tableView.backgroundView = count == 0 ? components.emptyStateView : nil
         tableView.separatorStyle = count == 0 ? .none : .singleLine
         return count

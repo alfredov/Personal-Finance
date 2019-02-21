@@ -4,10 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FinanceCore.xcscheme_^#shared#^_</key>
+		<key>Core.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>17</integer>
+		</dict>
+		<key>FinanceCore.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 		<key>Personal Finance.xcscheme_^#shared#^_</key>
 		<dict>
@@ -16,6 +23,8 @@
 		</dict>
 		<key>Production.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
