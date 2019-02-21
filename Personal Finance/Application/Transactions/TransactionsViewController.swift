@@ -38,12 +38,7 @@ extension TransactionsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
-        cell.amount.text = "$ 12"
-        cell.subject.text = "Netflix"
-        cell.title.text = "Monthly Subscription"
-        cell.date.text = "Fri 7"
-        cell.time.text = "5:12 PM"
-        cell.avatarImageView.image = UIImage(named: "user2")
+        cell.viewModel = viewModel.item(at: indexPath)
         return cell
     }
     

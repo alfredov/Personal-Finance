@@ -56,6 +56,7 @@
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		389F143C221F0B6100B357EE /* AddTransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */; };
 		38BE8463221F2E8200C4690C /* LoadingTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38BE8462221F2E8200C4690C /* LoadingTableView.xib */; };
+		38BE8465221F371100C4690C /* Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BE8464221F371100C4690C /* Numeric.swift */; };
 		38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
 		38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C9847821F8B261002E5A0E /* Budget.storyboard */; };
 		38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
@@ -151,6 +152,7 @@
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionsViewModel.swift; sourceTree = "<group>"; };
 		38BE8462221F2E8200C4690C /* LoadingTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingTableView.xib; sourceTree = "<group>"; };
+		38BE8464221F371100C4690C /* Numeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numeric.swift; sourceTree = "<group>"; };
 		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		38C9847821F8B261002E5A0E /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		38C9847B21F8B376002E5A0E /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 			isa = PBXGroup;
 			children = (
 				38C9847121F8AADB002E5A0E /* Shadow.swift */,
+				38BE8464221F371100C4690C /* Numeric.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -737,6 +740,7 @@
 				386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
 				38E21A92221F041800C80DBA /* AddViewController.swift in Sources */,
 				3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
+				38BE8465221F371100C4690C /* Numeric.swift in Sources */,
 				3864D0CA21F64436008C245B /* UI.swift in Sources */,
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
 				38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */,
