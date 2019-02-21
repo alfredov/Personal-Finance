@@ -16,6 +16,7 @@ class TransactionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        viewModel.delegate = self
         tableView.register(components.tableViewCell, forCellReuseIdentifier: "cell")
     }
 }
@@ -39,4 +40,10 @@ extension TransactionsViewController: UITableViewDataSource {
         return cell
     }
     
+}
+
+extension TransactionsViewController: TransactionsViewModelDelegate {
+    func didLoadData() {
+        tableView.reloadData()
+    }
 }

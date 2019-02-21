@@ -10,6 +10,10 @@ import Foundation
 import FirebaseFirestore
 import Core
 
+protocol TransactionsViewModelDelegate {
+    func didLoadData()
+}
+
 class TransactionsViewModel {
     private var items: [Core.Transaction] = []
     private var db: Firestore {
@@ -23,6 +27,8 @@ class TransactionsViewModel {
     var numberOfItems: Int {
         return items.count
     }
+    
+    var delegate: TransactionsViewModelDelegate?
     
     init() {
         db.collection("transactions").getDocuments {[weak self] (snapshot, error) in
@@ -45,6 +51,8 @@ class TransactionsViewModel {
                 transaction.firebaseId = snapshot.documentID
                 self.items.append(transaction)
             })
+            
+            self.delegate?.didLoadData()
         }
     }
 }
