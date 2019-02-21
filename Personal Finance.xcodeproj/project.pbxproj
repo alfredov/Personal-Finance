@@ -54,6 +54,7 @@
 		3886DB64221DDE9F001AAA61 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886DB63221DDE9F001AAA61 /* TransactionsViewModel.swift */; };
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
+		389F143C221F0B6100B357EE /* AddTransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */; };
 		38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
 		38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C9847821F8B261002E5A0E /* Budget.storyboard */; };
 		38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
@@ -61,6 +62,7 @@
 		38D1335B21FE91D5003A749C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D1335A21FE91D5003A749C /* Statistics.storyboard */; };
 		38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0DA0821F5121C00651235 /* AppDelegate.swift */; };
 		38E0DA1321F5121D00651235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0DA1121F5121D00651235 /* LaunchScreen.storyboard */; };
+		38E21A92221F041800C80DBA /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E21A91221F041800C80DBA /* AddViewController.swift */; };
 		38ED05CB2207F15A0005487C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED05CA2207F15A0005487C /* Config.swift */; };
 		38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D42201EC8400819609 /* SignInViewController.swift */; };
 		38F6B9D82201ED4700819609 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B9D72201ED4700819609 /* SignInViewModel.swift */; };
@@ -146,6 +148,7 @@
 		3886DB63221DDE9F001AAA61 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionsViewModel.swift; sourceTree = "<group>"; };
 		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		38C9847821F8B261002E5A0E /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		38C9847B21F8B376002E5A0E /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +159,7 @@
 		38E0DA1221F5121D00651235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E0DA1421F5121D00651235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E0DA2821F51D9F00651235 /* MainProd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProd.storyboard; sourceTree = "<group>"; };
+		38E21A91221F041800C80DBA /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		38ED05CA2207F15A0005487C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		38F6B9D42201EC8400819609 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		38F6B9D72201ED4700819609 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
@@ -212,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				383E8E9B21FBE6300087F74F /* Add.storyboard */,
+				38E21A91221F041800C80DBA /* AddViewController.swift */,
+				389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -725,6 +731,7 @@
 				38E0DA0921F5121C00651235 /* AppDelegate.swift in Sources */,
 				38F6B9D82201ED4700819609 /* SignInViewModel.swift in Sources */,
 				386469C921FA1FFD0077653E /* OnBoardingViewController.swift in Sources */,
+				38E21A92221F041800C80DBA /* AddViewController.swift in Sources */,
 				3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
 				3864D0CA21F64436008C245B /* UI.swift in Sources */,
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
@@ -734,6 +741,7 @@
 				3821190F221CE06C006AE046 /* ProfileViewController.swift in Sources */,
 				3850569421F61F1300E1452B /* LottieViewController.swift in Sources */,
 				3864D0C721F643A2008C245B /* TransactionsViewController.swift in Sources */,
+				389F143C221F0B6100B357EE /* AddTransactionsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
