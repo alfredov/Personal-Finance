@@ -55,6 +55,7 @@
 		38891F7B21F522E1003E04C0 /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38891F7A21F522E1003E04C0 /* MainDev.storyboard */; };
 		38891F8221F528F7003E04C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38891F8121F528F7003E04C0 /* .gitignore */; };
 		389F143C221F0B6100B357EE /* AddTransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */; };
+		38BE8463221F2E8200C4690C /* LoadingTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38BE8462221F2E8200C4690C /* LoadingTableView.xib */; };
 		38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847121F8AADB002E5A0E /* Shadow.swift */; };
 		38C9847921F8B261002E5A0E /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C9847821F8B261002E5A0E /* Budget.storyboard */; };
 		38C9847C21F8B376002E5A0E /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9847B21F8B376002E5A0E /* BudgetViewController.swift */; };
@@ -149,6 +150,7 @@
 		38891F7A21F522E1003E04C0 /* MainDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDev.storyboard; sourceTree = "<group>"; };
 		38891F8121F528F7003E04C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		389F143B221F0B6100B357EE /* AddTransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionsViewModel.swift; sourceTree = "<group>"; };
+		38BE8462221F2E8200C4690C /* LoadingTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingTableView.xib; sourceTree = "<group>"; };
 		38C9847121F8AADB002E5A0E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		38C9847821F8B261002E5A0E /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		38C9847B21F8B376002E5A0E /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				3864D0CC21F64C53008C245B /* TableViewCell */,
 				3864D0C321F64342008C245B /* EmptyView.xib */,
 				3864D0C921F64436008C245B /* UI.swift */,
+				38BE8462221F2E8200C4690C /* LoadingTableView.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				3850569121F61EF700E1452B /* Lottie.storyboard in Resources */,
 				3850567F21F610D600E1452B /* Cartfile in Resources */,
 				38151FAA2209D4EB00DF50EF /* README.md in Resources */,
+				38BE8463221F2E8200C4690C /* LoadingTableView.xib in Resources */,
 				38FDB45021F5593900AEF887 /* Colors.xcassets in Resources */,
 				3864D0C121F64338008C245B /* TableViewCell.xib in Resources */,
 				383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */,

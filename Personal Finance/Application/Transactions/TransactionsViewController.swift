@@ -10,6 +10,8 @@ import UIKit
 
 class TransactionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    
+    var loading = true
     var components = UI()
     private var viewModel = TransactionsViewModel()
     
@@ -24,8 +26,13 @@ class TransactionsViewController: UIViewController {
 extension TransactionsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let count = viewModel.numberOfItems
-        tableView.backgroundView = count == 0 ? components.emptyStateView : nil
-        tableView.separatorStyle = count == 0 ? .none : .singleLine
+        if loading {
+            tableView.backgroundView = UI.LoadingTableView
+            tableView.separatorStyle = .none
+        } else {
+            tableView.backgroundView = count == 0 ? components.emptyStateView : nil
+            tableView.separatorStyle = count == 0 ? .none : .singleLine
+        }
         return count
     }
     
@@ -44,6 +51,7 @@ extension TransactionsViewController: UITableViewDataSource {
 
 extension TransactionsViewController: TransactionsViewModelDelegate {
     func didLoadData() {
+        loading = false
         tableView.reloadData()
     }
 }

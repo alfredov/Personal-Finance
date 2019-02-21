@@ -10,6 +10,7 @@ import UIKit
 enum UINamed: String {
     case TableViewCell
     case EmptyView
+    case LoadingTableView
 }
 
 struct UI {
@@ -25,5 +26,12 @@ struct UI {
             return nil
         }
         return cell
+    }()
+    
+    public static let LoadingTableView: UIView = {
+        guard let view = Bundle.main.loadNibNamed(UINamed.LoadingTableView.rawValue, owner: nil, options: [:])?.first as? UIView else {
+            return UIView()
+        }
+        return view
     }()
 }
