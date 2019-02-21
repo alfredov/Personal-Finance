@@ -60,6 +60,12 @@ class TransactionsViewModel {
     func item(at indexPath: IndexPath) -> TransactionViewModel {
         return TransactionViewModel(transaction: items[indexPath.row])
     }
+    
+    func remove(at indexPath: IndexPath) {
+        let item = items.remove(at: indexPath.row)
+        guard let firebaseId = item.firebaseId else { return }
+        db.collection("transactions").document(firebaseId).delete()
+    }
 }
 
 class TransactionViewModel {
