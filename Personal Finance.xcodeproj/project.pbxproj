@@ -17,6 +17,7 @@
 		380C1435221DF0D2005C5A4D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886DB5C221D9995001AAA61 /* Transaction.swift */; };
 		38151FAA2209D4EB00DF50EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38151FA92209D4EB00DF50EF /* README.md */; };
 		3821190F221CE06C006AE046 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821190E221CE06C006AE046 /* ProfileViewController.swift */; };
+		38311D43222079030019E962 /* LocalNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38311D42222079030019E962 /* LocalNotificationsController.swift */; };
 		383E8E9821FBDF800087F74F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E8E9721FBDF800087F74F /* TabBarViewController.swift */; };
 		383E8E9C21FBE6300087F74F /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383E8E9B21FBE6300087F74F /* Add.storyboard */; };
 		3850567F21F610D600E1452B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3850567E21F610D600E1452B /* Cartfile */; };
@@ -115,6 +116,7 @@
 		38151FA92209D4EB00DF50EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		381E13522205F9B200828CC7 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		3821190E221CE06C006AE046 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		38311D42222079030019E962 /* LocalNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsController.swift; sourceTree = "<group>"; };
 		383E8E9721FBDF800087F74F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		383E8E9B21FBE6300087F74F /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = "Personal Finance/Application/Add/Add.storyboard"; sourceTree = SOURCE_ROOT; };
 		3850567E21F610D600E1452B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -214,6 +216,14 @@
 				380C1428221DF0B2005C5A4D /* Info.plist */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		38311D41222078E00019E962 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				38311D42222079030019E962 /* LocalNotificationsController.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 		383E8E9A21FBE5320087F74F /* Add */ = {
@@ -346,6 +356,7 @@
 		38891F7D21F52742003E04C0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				38311D41222078E00019E962 /* Notifications */,
 				38D1335621FE90F7003A749C /* Statistics */,
 				38D1335521FE90EC003A749C /* Profile */,
 				383E8E9A21FBE5320087F74F /* Add */,
@@ -741,6 +752,7 @@
 				38E21A92221F041800C80DBA /* AddViewController.swift in Sources */,
 				3852966B21FA4B6000960C69 /* OnBoardingStepsViewController.swift in Sources */,
 				38BE8465221F371100C4690C /* Numeric.swift in Sources */,
+				38311D43222079030019E962 /* LocalNotificationsController.swift in Sources */,
 				3864D0CA21F64436008C245B /* UI.swift in Sources */,
 				38C9847221F8AADB002E5A0E /* Shadow.swift in Sources */,
 				38F6B9D52201EC8400819609 /* SignInViewController.swift in Sources */,

@@ -18,12 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let _ = LocalNotificationsController()
+        
         var keys = Config()
+        
         ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         TWTRTwitter.sharedInstance().start(
             withConsumerKey: keys.TwitterConsumerkey ?? "",
             consumerSecret: keys.TwitterConsumerSecret ?? ""
         )
+        
         FirebaseApp.configure()
         initializeController()
         
