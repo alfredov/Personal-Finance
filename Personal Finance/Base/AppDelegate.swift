@@ -107,7 +107,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         }
         
         let googleAuthentication = GIDSignIn.sharedInstance().handle(url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: [:])
-        return googleAuthentication
+        
+        if googleAuthentication {
+            return true
+        }
+        
+        let facebookAuthentication = ApplicationDelegate.shared.application(app, open: url, options: options)
+        return facebookAuthentication
     }
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {

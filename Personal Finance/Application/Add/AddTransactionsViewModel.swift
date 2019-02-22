@@ -9,6 +9,7 @@
 import Foundation
 import FirebaseFirestore
 import Core
+import FirebaseAuth
 
 class AddTransactionsViewModel {
     private var db: Firestore {
@@ -20,6 +21,10 @@ class AddTransactionsViewModel {
             return
         }
         
+        guard let uid = Auth.auth().currentUser?.uid else {
+            return
+        }
+        
         let transaction = Core.Transaction(
             value: value,
             category: .expend,
@@ -27,10 +32,14 @@ class AddTransactionsViewModel {
             date: Date()
         )
         
-        guard let data = transaction.data() else {
+        guard var data = transaction.data() else {
             return
         }
         
-        db.collection("transactions").addDocument(data: data)
+        data["ownerId"] = uid
+        db.collection("transactions").addDocument(data: data) { error in
+            print(error?.localizedDescription ?? "Object Added")
+            NotificationCenter.default.post(name: NSNotification.Name("AddedNewData"), object: nil)
+        }
     }
 }

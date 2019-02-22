@@ -79,10 +79,12 @@ class SignInViewModel: NSObject {
                 print("User tapped on Cancel Button")
                 handler?(false, nil)
             } else {
-                print("Athenticate successfully")
                 guard let token = AccessToken.current?.tokenString else { return }
                 let credentials = FacebookAuthProvider.credential(withAccessToken: token)
                 Auth.auth().signInAndRetrieveData(with: credentials, completion: { (authResult, error) in
+                    if let error = error {
+                        handler?(false, error)
+                    }
                     handler?(true, nil)
                 })
             }
