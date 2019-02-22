@@ -118,18 +118,20 @@ extension SignInViewModel: AKFViewControllerDelegate {
             }
             
             guard let data = data else { return }
-            guard let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else { return }
-            guard let token = json?["token"] as? String else { return }
             
-            Auth.auth().signIn(withCustomToken: token, completion: {[weak self] (result, error) in
-                if let error = error {
-                    self?.handler?(false, error)
-                    return
-                }
-                
-                self?.handler?(true, nil)
-            })
-            
+            do {
+                let json = try JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                guard let token = json["token"] as? String else { return }
+                Auth.auth().signIn(withCustomToken: token, completion: {[weak self] (result, error) in
+                    if let error = error {
+                        self?.handler?(false, error)
+                        return
+                    }
+                    self?.handler?(true, nil)
+                })
+            } catch let error as NSError {
+                print("<<< Failed to load  >>>\n \(error.localizedDescription)")
+            }
         }
         
         task.resume()

@@ -37,11 +37,9 @@ class TransactionsViewModel {
     }
     
     @objc private func getData() {
-        print("GET DATA =====> \n", Auth.auth().currentUser)
         guard let uid = Auth.auth().currentUser?.uid else {
             return
         }
-        print("USER ID :::: \n", uid)
         db.collection("transactions")
             .whereField("ownerId", isEqualTo: uid)
             .order(by: "date", descending: true)
